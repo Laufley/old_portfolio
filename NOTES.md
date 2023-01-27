@@ -1,0 +1,2 @@
+//1.  installed npm install node-sass package in case I needed some animations. But I decided not to use it in the end.
+//2. The reason behind having a main container which renders profesional.js by default instead of having profesional.js as a main is beacuse if I want to change and add complexity to my portafolio in the future and have the profesional page linked, it will be already build that way - foresight.
