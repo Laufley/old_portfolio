@@ -7,27 +7,18 @@ import ErrorPage from './Components/ErrorPage'
 import styled from "styled-components";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
-
-const Title = styled.h1`
-    display: flex;
-    justify-content: flex-start;
-    font-size: 1.5em;
-    color: #fff; 
-    margin: 0;
-    padding: 1em;
-    `
-
-const MainBlock = styled.div `
-    display: grid;
+const Body = styled.body`
+  background: linear-gradient(45deg, #ffffff,#f87171, #de3274, #ba5ee2, #4e9aec, #67e2b5, #40eeb7);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  height: 100vh;
 `
-
 
 
 function App() {
   return (
-    <> 
+    <Body>
       <Router>
-        <Title>Indira Borras Gonzalez</Title>
         <Routes>
           <Route exact path='/' element={<Professional/>}> </Route>
           <Route path='/Professional' element={<Professional/>}> </Route>
@@ -37,7 +28,7 @@ function App() {
           <Route path="*" element={< ErrorPage />}/>
         </Routes>
       </Router>
-    </>
+    </Body>
   )
 }
 
