@@ -4,6 +4,7 @@ import Project from './Project';
 import monster_archives from './monster_archives.jpeg'
 import dnd_vault from './dnd_vault.jpeg'
 import species from './species.jpeg'
+import { Link } from 'react-router-dom';
 
 const animals = species
 const monsters = monster_archives
@@ -52,7 +53,18 @@ function Projects() {
     } );
 
     return (
-    <ul>{listOfPojects}</ul>
+        <>
+        <div id="page-wrapper">
+            <div id='nav'>
+                <h1>Projects Showcase</h1>
+                <Link to="/">Back to main page</Link>
+            </div>
+            <div class="carousel">
+                <ul>{listOfPojects}</ul>
+            </div>
+        </div>
+        </>
+    
     )
 
 }
