@@ -1,3 +1,4 @@
+
 import {React, useState} from 'react'
 import './Projects.css';
 import Project from './Project';
@@ -5,6 +6,7 @@ import monster_archives from './monster_archives.jpeg'
 import dnd_vault from './dnd_vault.jpeg'
 import species from './species.jpeg'
 import { Link } from 'react-router-dom';
+import Carousel from './Carousel';
 
 const animals = species
 const monsters = monster_archives
@@ -13,6 +15,7 @@ const vault = dnd_vault
 function Projects() {
 
     const [projects, setProjects] = useState([
+
     {
         title: "D&D vault",
         projectImg: vault,
@@ -40,7 +43,8 @@ function Projects() {
 
     ]);
 
-    const listOfPojects = projects.map( (projectObj, index) => {
+
+    const listOfProjects = projects.map( (projectObj, index) => {
     return( 
         <>
         <Project key={index}
@@ -52,6 +56,8 @@ function Projects() {
         )
     } );
 
+
+
     return (
         <>
         <div id="page-wrapper">
@@ -59,14 +65,12 @@ function Projects() {
                 <h1>Projects Showcase</h1>
                 <Link to="/">Back to main page</Link>
             </div>
-            <div class="carousel">
-                <ul>{listOfPojects}</ul>
-            </div>
+            <Carousel listOfProjects={listOfProjects}/>
         </div>
         </>
     
     )
-
 }
+
 
 export default Projects;

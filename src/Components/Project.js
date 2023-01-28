@@ -1,8 +1,7 @@
-import styled from 'styled-components';
 import './Project.css';
 
 
-const Project = ({image, title, stack, key}) => {
+const Project = ({image, title, stack}) => {
 
     return (
         <li id="wrapper">
