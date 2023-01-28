@@ -1,26 +1,36 @@
 import styled from 'styled-components';
 import Header from '../Components/Header';
+import { Link } from 'react-router-dom';
+import headshoot from './headshoot.jpg';
+
+const profileImg = headshoot
 
 const Aside = styled.div`
 float: right;
 position: sticky;
 top: 0;
-margin-right: 25%;
-margin-top: -4%;
+margin-right: 10%;
+margin-top: -20%;
 `
 const Picture = styled.img`
     width: 80%;
     padding: 5px;
     border: 1px solid #555;
     width: 300px;
-    height: 200px;
+    height: 400;
     background-color: white;
     vertical-align: middle;
+    transform: rotate(8deg);
 `
 const Details = styled.div`
 display: flex;
 list-style: none;
 flex-direction: row;
+justify-content: space-between;
+margin-top: 20%;
+`
+const LinkStyle = styled(Link)`
+    margin: 0 10px;
 `
 
 const Main = styled.div`
@@ -50,8 +60,13 @@ margin-left: 4%;
 const Button = styled.div`
     position: relative;
     top: 0;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 35%;
     padding: 1rem 2rem;
     font-weight: 700;
+    text-align: center;
+    font-weight: bold;
     background: rgb(255, 255, 255);
     color: blueviolet;
     border-radius: .5rem;
@@ -59,7 +74,7 @@ const Button = styled.div`
     border-right: 2px solid blueviolet;
     border-top: 2px solid white;
     border-left: 2px solid white;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-property: border-top, 
     border-left, 
     border-bottom,
@@ -82,15 +97,13 @@ const Home = () =>{
     <>
         <Header/>
         <Aside>
-            <img src='src/profile_pic.jpeg'></img>
+            <Picture src={profileImg}></Picture>
             <Details> 
-                <ul>
-                    <li>Résumé</li>
-                    <li>GitHub</li>
-                    <li>LinkedIn</li>   
-                </ul>
+                    <LinkStyle to='/CV'> 🚀 Résumé </LinkStyle>
+                    <LinkStyle to='https://github.com/Laufley' target="_blank"><i class="fa fa-github"> GitHub</i></LinkStyle>
+                    <LinkStyle to='https://www.linkedin.com/in/indira-borras/' target="_blank"><i class="fa fa-linkedin"> LinkedIn</i></LinkStyle>
             </Details>
-            <Button>Projects</Button>
+            <Link to="/Projects"><Button>PROJECTS</Button></Link>
         </Aside>
         <Main>
             <Intro><h1>I am a software engineer with experience in this and this and that</h1></Intro>
