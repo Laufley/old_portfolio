@@ -17,7 +17,7 @@ margin-top: -20%;
 const Picture = styled.img`
     width: 80%;
     padding: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgba(255, 255, 255, 0.79);
     width: 300px;
     height: 400;
     background-color: white;
@@ -102,7 +102,8 @@ const Personal = () => {
             </Details>
         </Aside>
         <Main>
-            <Intro><h1>I'm a martial artist, a psychologist , and a bit of a goof.</h1></Intro>
+            <Intro><h1>I'm a martial artist, a psychologist, <br></br>
+                and a bit of a goof.</h1></Intro>
             <Content>
             <h2>Life</h2>
             <p> lalala </p>

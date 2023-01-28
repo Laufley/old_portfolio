@@ -15,7 +15,7 @@ margin-top: -20%;
 const Picture = styled.img`
     width: 80%;
     padding: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgba(255, 255, 255, 0.79);
     width: 300px;
     height: 400;
     background-color: white;
@@ -106,7 +106,7 @@ const Home = () =>{
             <Link to="/Projects"><Button>PROJECTS</Button></Link>
         </Aside>
         <Main>
-            <Intro><h1>I am a software engineer with experience in this and this and that</h1></Intro>
+            <Intro><h1>I am a junior software developer with experience in this and this and that</h1></Intro>
             <Content>
             <h2>Web development</h2>
             <h4>JavaScript</h4>
@@ -118,7 +118,7 @@ const Home = () =>{
             I was one of the primary maintainers of the neo4j gem for many years and I worked as a developer advocate for Neo4j
             I have also worked with MongoDB, Elasticsearch, and Redis </h4>
             <h2>Soft Skills</h2>
-            <h4>Though other roles</h4>
+            <h4>Through other roles</h4>
             </Content>
         </Main>
     </>
