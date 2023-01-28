@@ -1,7 +1,7 @@
 import {React, useState} from 'react'
 import './Projects.css';
 import Project from './Project';
-import monster_archives from './monster_archives.png'
+import monster_archives from './monster_archives.jpeg'
 import dnd_vault from './dnd_vault.jpeg'
 import species from './species.jpeg'
 
@@ -14,7 +14,7 @@ function Projects() {
     const [projects, setProjects] = useState([
     {
         title: "D&D vault",
-        projectImg: {vault},
+        projectImg: vault,
         projectUrl: "https://github.com/Laufley/Personal_Project_DnD_Vault",
         stack: "Pyhon, Flask, SQL HTML, CSS",
         request: "My client (business-owner) needed a website to showcase his new business, which at the same would allow him manage all the bookings between customers and gaming sessions.",
@@ -22,7 +22,7 @@ function Projects() {
     },
     {
         title: "Monster archives",
-        projectImg: {monsters},
+        projectImg: monsters,
         projectUrl: "https://github.com/Laufley/DnD_monster_archives_app",
         stack: "JavaScript, React, HTML, CSS",
         request: "to train myself on fetching complex and incomplete APIs.",
@@ -30,7 +30,7 @@ function Projects() {
     },
     {
         title: "Endangered Species",
-        projectImg: {animals},
+        projectImg: animals,
         projectUrl: "https://github.com/Laufley/Endangered_animals_DOM_hw_js",
         stack: "JavaScript, React, HTML, CSS",
         request: "to train myself and interact with the DOM directly without jsx and see how things work on the background.",
