@@ -3,27 +3,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    margin: 10px auto;
     width: 40rem;
-    background-color: #efebebeb;
-    padding: 10px;
-    border-radius: 5px;
-    
-    
+    background-color: #131313c9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    margin-top: 5%;
 }
+
 
 #details {
     display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
 } 
 
 #pic {
-    align-self: start;
-    margin:auto;
-    width: 40%;
-    height: 40%;
+    align-self: center;
+    width: 85%;
+    height: 80%;
     opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 #project-title{
     color: #5252f9;
@@ -41,6 +44,9 @@
 #Info > a {
     text-decoration: none;
 }
+
+
+
 
 
 

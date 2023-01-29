@@ -1,7 +1,7 @@
 import './Project.css';
 
 
-const Project = ({image, title, stack}) => {
+const Project = ({image, title, stack, link}) => {
 
     return (
         <li id="wrapper">
@@ -10,7 +10,7 @@ const Project = ({image, title, stack}) => {
                 <div id="project-title">{title}</div>
                 <p id="stack">{stack}</p> 
                 <span id="info">
-                    <a href="" >Like</a> &#8226;  <a href="">Reply</a>
+                    <a href={link} >Github Link</a>
                 </span>
             </div>
         </li>

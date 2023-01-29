@@ -50,7 +50,8 @@ function Projects() {
         <Project key={index}
             image={projectObj.projectImg}
             title={projectObj.title}
-            stack={projectObj.stack}>
+            stack={projectObj.stack}
+            link={projectObj.projectUrl}>
         </Project>
         </>
         )
@@ -63,7 +64,7 @@ function Projects() {
         <div id="page-wrapper">
             <div id='nav'>
                 <h1>Projects Showcase</h1>
-                <Link to="/">Back to main page</Link>
+                <Link id='back' to="/"><i className="fa fa-arrow-left"> Back to main page</i> </Link>
             </div>
             <Carousel listOfProjects={listOfProjects}/>
         </div>
