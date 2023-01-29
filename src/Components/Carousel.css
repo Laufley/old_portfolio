@@ -24,9 +24,6 @@
 }
 
 
-
-
-
     
 
 /* Buttons */
@@ -34,13 +31,16 @@
 .button {
     display: flex;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.204);
-    font-size: 60px;
+    background-color: rgba(137, 43, 226, 0.48);
+    font-size: 80px;
     z-index: 1;
     margin-top: 40%;
     border-radius: 30%;
     border-width: 6px;
-    border-color: rgba(255, 255, 255, 0);
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(238, 103, 238);
+    border-right: 2px solid rgb(238, 103, 238);
 }
 
 .button:hover{
@@ -65,7 +65,17 @@
     right: 0;
     margin-right: 2%;
     padding-left: 2%;
-    padding-right: 1.5%;;
+    padding-right: 1.5%;
+}
+
+#button-next:hover {
+background-color: whitesmoke;
+cursor: pointer;
+    border-top: 2px solid blueviolet;
+    border-left: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(238, 103, 238);
+    border-right: 2px solid rgb(238, 103, 238);
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px;
 }
 
 

@@ -12,8 +12,10 @@ const animals = species
 const monsters = monster_archives
 const vault = dnd_vault
 
+
 function Projects() {
 
+    const [text, setText] = useState(null)
     const [projects, setProjects] = useState([
 
     {
@@ -57,6 +59,11 @@ function Projects() {
         )
     } );
 
+    // const handleQuestion = () => {
+    //     console.log("it tickles!")
+    //     setText("Want more info about the projects? Just ask!")
+    // }
+
 
 
     return (
@@ -67,6 +74,9 @@ function Projects() {
                 <Link id='back' to="/"><i className="fa fa-arrow-left"> Back to main page</i> </Link>
             </div>
             <Carousel listOfProjects={listOfProjects}/>
+            {/* <div id='text'><h4>{text}</h4>
+            <span onClick={handleQuestion}><i className="fa fa-question-circle" id='question-mark'></i></span>
+            </div> */}
         </div>
         </>
     

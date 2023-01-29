@@ -2,12 +2,15 @@ import React from 'react'
 import styled from "styled-components";
 import { Link } from "react-router-dom"; 
 
+
+
 const Main = styled.div`
 display: grid;
 grid-template-areas: 
 'TopContent'
 'ButtonsWrapper';
 flex-direction:row;
+
 `
 
 const TopContent = styled.div`
@@ -91,7 +94,7 @@ text-decoration: none;
 const Header = ({ route, setRoute }) => {
         
 
-    return ( 
+    return (
     <Main>
         <TopContent>
         <Title>Indira Borras Gonzalez</Title>
@@ -101,7 +104,6 @@ const Header = ({ route, setRoute }) => {
         </ButtonsWrapper>
         </TopContent>
     </Main>
-    
     )
     
 }
