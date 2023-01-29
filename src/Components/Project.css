@@ -5,7 +5,7 @@
     justify-content: center;
     width: 40rem;
     background-color: #131313c9;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     border-radius: 15px;
     margin-top: 5%;
@@ -16,6 +16,8 @@
     display: grid;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
 } 
 
 #pic {
@@ -27,24 +29,46 @@
     margin-right: auto;
 }
 
+#pic:hover {
+    margin-left: 40%;
+    margin-top: 4%;
+    transform: scale(1.7);
+    opacity: 100%;
+    transition: 1s;
+    z-index: 1;
+}
+
 
 #project-title{
-    color: #5252f9;
+    color: #dcdcf1;
 }
 
 #stack {
-    color: #5252f9;
+    color: #dcdcf1;
+    margin-left: -3px;
 }
 
-#Info {
-    color: #5252f9;
-    font-size: 0.8rem;
+#info {
+    color: #dcdcf1;
+    font-size: 1 rem;
+    margin-left: 2px;   
 }
 
-#Info > a {
+#info > a {
     text-decoration: none;
+    color: #dcdcf1;
 }
 
+#info > a:hover {
+    color: #ed1682;
+}
+
+.link-text {
+    color: #5999E8;
+    font-size: 1 rem;
+    margin-left: 2px; 
+    text-decoration: none;;  
+}
 
 
 

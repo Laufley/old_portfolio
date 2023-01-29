@@ -14,11 +14,18 @@
     grid-column: 1/2;
 }
 
+
 #second-item {
     display: flex;
     grid-area: second-item;
     grid-column: 2/2;
+    cursor: default;
+    pointer-events: none;
 }
+
+
+
+
 
     
 
@@ -30,16 +37,22 @@
     background-color: rgba(255, 255, 255, 0.204);
     font-size: 60px;
     z-index: 1;
-    margin-top: 31%;
+    margin-top: 40%;
     border-radius: 30%;
     border-width: 6px;
     border-color: rgba(255, 255, 255, 0);
 }
 
 .button:hover{
-    background-color: rgba(73, 255, 255, 0.516);
-    color: rgb(247, 247, 247);
-}
+    background-color: whitesmoke;
+    cursor: pointer;
+        border-top: 2px solid blueviolet;
+        border-left: 2px solid blueviolet;
+        border-bottom: 2px solid rgb(238, 103, 238);
+        border-right: 2px solid rgb(238, 103, 238);
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+        }
+
 
 #button-previous {
     left: 0;

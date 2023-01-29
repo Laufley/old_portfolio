@@ -80,9 +80,13 @@ margin-bottom: 15%;
 `
 
 const Button2 = styled(Button1)`
-margin-bottom: 15%;
+margin-left: 2%;
+margin-bottom: 18%;
 `
 
+const LinkStyled = styled(Link)`
+text-decoration: none;
+` 
 
 const Header = ({ route, setRoute }) => {
         
@@ -92,8 +96,8 @@ const Header = ({ route, setRoute }) => {
         <TopContent>
         <Title>Indira Borras Gonzalez</Title>
         <ButtonsWrapper>
-        <Link to="/Home"><Button1>Professional</Button1></Link>
-        <Link to="/Personal"><Button2>Personal</Button2></Link>
+        <LinkStyled to="/Home"><Button1>Professional</Button1></LinkStyled>
+        <LinkStyled to="/Personal"><Button2>Personal</Button2></LinkStyled>
         </ButtonsWrapper>
         </TopContent>
     </Main>

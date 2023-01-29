@@ -10,17 +10,19 @@
 
 #nav {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgb(225, 249, 249);
     color:rgb(68, 67, 67);
+    gap: 30%;
+
 }
 
 #back {
-    color: rgb(151, 152, 152);
+    color: blueviolet;
     margin-right: 10%;
     margin-top: 2%;
     font-size: 2rem;
 }
 #back:hover {
-    color: rgb(92, 177, 177);
+    color: #5999E8;
 }

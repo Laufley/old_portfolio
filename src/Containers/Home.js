@@ -31,6 +31,12 @@ margin-top: 20%;
 `
 const LinkStyle = styled(Link)`
     margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #4F0080;
+    &:hover{
+        color: whitesmoke;
+    }
 `
 
 const Main = styled.div`
@@ -89,6 +95,10 @@ const Button = styled.div`
     }
 `
 
+const LinkStyled = styled(Link)`
+text-decoration: none;
+` 
+
 
 const Home = () =>{
     
@@ -99,11 +109,11 @@ const Home = () =>{
         <Aside>
             <Picture src={profileImg}></Picture>
             <Details> 
-                    <LinkStyle to='/CV'> 🚀 Résumé </LinkStyle>
+                    <LinkStyle to='/CV'> <i class="fa">&#xf12e;</i> Résumé </LinkStyle>
                     <LinkStyle to='https://github.com/Laufley' target="_blank"><i class="fa fa-github"> GitHub</i></LinkStyle>
                     <LinkStyle to='https://www.linkedin.com/in/indira-borras/' target="_blank"><i class="fa fa-linkedin"> LinkedIn</i></LinkStyle>
             </Details>
-            <Link to="/Projects"><Button>PROJECTS</Button></Link>
+            <LinkStyled to="/Projects"><Button>PROJECTS</Button></LinkStyled>
         </Aside>
         <Main>
             <Intro><h1>I am a junior software developer with experience in this and this and that</h1></Intro>
