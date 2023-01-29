@@ -1,5 +1,5 @@
 import {React, useState} from 'react'
-import Project from './Project';
+import './Carousel.css';
 
 const Carousel = ({listOfProjects}) => {
 
@@ -25,17 +25,25 @@ const Carousel = ({listOfProjects}) => {
     }
 
     return (
-        <div className="carousel">
-            <button id="button-previous" onClick={handlePrevious}>Previous</button>
-            <div>
+    <>
+        <div id='carousel-view'>
+            <div className="arrow">
+                <button className="arrow-top" onClick={handleNext}>Next</button>
+                <button className="arrow-bottom" onClick={handlePrevious}>Previous</button>
+            </div>
+            <div id='first-item'>
                 {listOfProjects[currentProjectIndex]}
+            </div> 
+            <div id='second-item'>
+                {listOfProjects[currentProjectIndex + 1]}
+
             </div>
-            <button id='button-next' onClick={handleNext}>Next</button>
-            </div>
-            
+        </div>    
+    </>   
     )
 
 }
 
 
 export default Carousel
+

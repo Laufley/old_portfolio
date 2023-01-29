@@ -5,10 +5,12 @@
     justify-content: center;
 
     margin: 10px auto;
-    width: 50%;
+    width: 40rem;
     background-color: #efebebeb;
     padding: 10px;
     border-radius: 5px;
+    
+    
 }
 
 #details {
