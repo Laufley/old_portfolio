@@ -22,7 +22,7 @@ function Projects() {
         title: "D&D vault",
         projectImg: vault,
         projectUrl: "https://github.com/Laufley/Personal_Project_DnD_Vault",
-        stack: "Pyhon, Flask, SQL HTML, CSS",
+        stack: "Python, Flask, SQL HTML, CSS",
         request: "My client (business-owner) needed a website to showcase his new business, which at the same would allow him manage all the bookings between customers and gaming sessions.",
         solution: "I created a whole-in-one comprehensive website solution for my client where his customers can browse sessions and interact with the page to get more info on different topics, and I also added a booking feature for him to manage all the bookings."
     },
