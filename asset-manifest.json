@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.a840c606.js",
+    "main.css": "/portfolio/static/css/main.c129949f.css",
+    "main.js": "/portfolio/static/js/main.e873a126.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/species.jpeg": "/portfolio/static/media/species.89ad224cf806a574204f.jpeg",
+    "static/media/dnd_vault.jpeg": "/portfolio/static/media/dnd_vault.dfb307742183b81095be.jpeg",
+    "static/media/monster_archives.jpeg": "/portfolio/static/media/monster_archives.6299eab5d59e32f4de84.jpeg",
+    "static/media/headshoot.jpg": "/portfolio/static/media/headshoot.dee34425b47dfa981696.jpg",
+    "static/media/goofy.jpeg": "/portfolio/static/media/goofy.3b52c0301771e6fc7286.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.a840c606.js.map": "/portfolio/static/js/main.a840c606.js.map",
+    "main.c129949f.css.map": "/portfolio/static/css/main.c129949f.css.map",
+    "main.e873a126.js.map": "/portfolio/static/js/main.e873a126.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a840c606.js"
+    "static/css/main.c129949f.css",
+    "static/js/main.e873a126.js"
   ]
 }
