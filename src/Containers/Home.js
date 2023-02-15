@@ -3,6 +3,7 @@ import Header from '../Components/Header';
 import { Link } from 'react-router-dom';
 import headshoot from './headshoot.jpg';
 
+
 const profileImg = headshoot
 
 const Aside = styled.div`
@@ -120,55 +121,65 @@ const Home = () =>{
             <Content>
             <h2>Web development</h2>
             <h4>JavaScript</h4>
-                <p>I have worked alone and with different teams over several projects, both in front-end and back-end, using Node.js, React, JSX, HTML, CSS.
+                <p>I have worked alone and in a team over several projects, both in front-end and back-end using React, Node.js, HTML, and CSS.
                 <br></br>
-                Even though I appreciate the back-end logic, I do have a blast working in front-end!
+                <br></br>
+                All throughout my career I've always focused on my end users, this may be why even when I appreciate the back-end logic I do prefer front-end and event-driven development.
                     
                 </p>
             <h4>Python</h4>
-                <p> Great and versatile language, so widely used. I do appreciate it not being dynamically typed when I compare it with JS - the many typos I could have avoided...
+                <p> Great and versatile language, no wonder it's so widely used! I do appreciate the fact that is not dynamically typed when I compare it with JS - the many typos I could have avoided...
                 <br></br>
-                I do enjoy Python as I enjoy JS though. And I have worked alone and collaborated with others to create apps using Flask, SQL, HTML, CSS.
                 <br></br>
-                Feel free to check some of my projects!
+                I do enjoy Python as well, And I have worked alone and collaborated with others to create apps using Flask, SQL, HTML, CSS.
                 </p>
             <h2>Databases</h2>
-            <p> Mainly SQL and getting familiar with NoSQL</p>
+            <p> SQL and MongoDB</p>
             <h2>Testing tools</h2>
-            <p>Experience with unit testing, integration testing, and E2E.
+            <p>Experience with unit testing, integration testing, and systems testing.
                 <br></br>
                 Unittest, Pytest, Mocha, Cypress.
             </p>
 
 
             <h2>Soft Skills</h2>
-            <p>Some are acquired over years of working experience, others are innate:</p>
+            <p>Innate traits + I've learnt from and grown on my roles for every single job I've had:</p>
                 <ul>
-                <li>Good communication Skills</li>
-                <li>Comfortable working alone or in a team</li>
-                <li>Collaboration & knowledge-sharing - essential!</li>
-                <li>Resilience</li>
+                <li>Curiosity! ... and endless hunger for learning</li>
+                <li>Resilience and self-drive</li>
                 <li>Commitment</li>
-                <li>Enthusiasm</li>
-                <li>Versatility - improvise, adapt, overcome - quite often</li>
-                <li>Thinking outside the box!!</li>
-                <li>Hunger for learning</li>
+                <li>Passion and enthusiasm</li>
+                <li>Creativity</li>
+                <li>Comfortable working alone or in a team - knowledge sharing is essential!</li>
+                <li>Adaptability (improvise, adapt, overcome)</li>
+                <li>Used to tight deadlines and fast-paced environments</li>
+                <li>Good communication Skills <i>(English, Spanish, Catalan)</i></li>
+                <li>Organising, Planning and Project Management</li>
+                <li>Psychology and diplomacy</li>
+                <li>Leadership, mentoring and training</li>
+                <li>Experience nurturing client relationships</li>
             </ul>
+
+
+            <h2>Summary</h2>
+            <p>I'm a junior software developer with an insatiable curiosity and hunger for learning, a positive attitude, and a keen interest in Front-end. I've always found the most value in knowledge-sharing, and I enjoy solving problems and collaborating with a team to bring out the best from everyone and deliver outstanding solutions with a twist.<br></br><br></br>I'm quite a perfectionist and detail-oriented, a hard worker, and I like to feel proud of my craft. I will rely on my diverse skillset and recently acquired knowledge in software development to help my team achieve our  goals.</p>
+
             <h2>My mindset</h2>
             <h3>I.Love.Creating.Stuff</h3>
-            <h4>I've always been quite a workaholic and I'm afraid it may be a little too late to change. 
-                Well... I can't help it! I really lose track of time when I'm focused -  I know it's not very healthy, so feel free to give me a gentle poke if I deserve it! 
-            <br></br>
-            <br></br> 
-            I like to feel proud of my craft, yes. But I try not to lose the scope<br></br>
-            there is still a long way to go on my career, and I will never be completely satisfied with my results - or so I hope - for there is always something new to learn and implement, and I want to know as much as I can!
-            <br></br>
-            <br></br>
-            My goals are: to deliver good results, strenghten relationships, and to keep learning to be in a position of helping others in the future. 
-            <br></br>
-            <br></br>
-            PS. I've walked this road a couple of times already. Growing on previous roles and becoming a senior, someone who's there for the team. I can and I will do it again.
-            as a Knights Radiant would say "Journey Before Destination".
+
+            <h4>Thinking back, on every role I've had I have always felt a similar craving - To be creative! <br></br>
+            Maybe that's why I've always got involved on more than it was expected from me. <br></br>
+            And that exposure could be the reason behind all the things I've learnt and the speed of it.
+                <br></br><br></br>
+                I really enjoy improving things, finding solutions, helping teams grow... I feel good when I'm adding value and I see a real impact from my efforts.
+                When I manage to make my team's life easier or to surprise my clients with nice additions they didn't expect THAT drives me.
+                <br></br><br></br>
+                Programming allows me to create not only for myself or my team, but for a wider audience. 
+                Hopefuly my small actions in the bigger team picture will make our users happier.
+                <br></br><br></br>
+                I'm a hardworker and I like to feel proud of my craft.
+                My software developer career is just starting, and this will me an incredible learning curve for me again. I can't wait.
+
             </h4>
             </Content>
         </Main>
