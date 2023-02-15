@@ -14,7 +14,6 @@
     background-color: rgb(225, 249, 249);
     color:rgb(68, 67, 67);
     gap: 30%;
-
 }
 
 #back {
@@ -22,6 +21,7 @@
     margin-right: 10%;
     margin-top: 2%;
     font-size: 2rem;
+    color: aliceblue;
 }
 #back:hover {
     color: #5999E8;
