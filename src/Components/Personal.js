@@ -2,7 +2,7 @@ import {React, useState} from 'react'
 import styled from 'styled-components';
 import Header from '../Components/Header';
 import { Link } from 'react-router-dom';
-import goofy from './goofy.jpeg'
+import goofy from './helpers/goofy.jpeg'
 
 const personalImg = goofy
 

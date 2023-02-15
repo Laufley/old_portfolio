@@ -2,10 +2,10 @@
 import {React, useState} from 'react'
 import './Projects.css';
 import Project from './Project';
-import monster_archives from './monster_archives.jpeg'
-import dnd_vault from './dnd_vault.jpeg'
-import species from './species.jpeg'
-import marine_life from './marine_life.jpeg'
+import monster_archives from './helpers/monster_archives.jpeg'
+import dnd_vault from './helpers/dnd_vault.jpeg'
+import species from './helpers/species.jpeg'
+import marine_life from './helpers/marine_life.jpeg'
 import { Link } from 'react-router-dom';
 import Carousel from './Carousel';
 

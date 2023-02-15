@@ -1,8 +1,5 @@
 import React from 'react'
-import CV_indira from './CV_indira.pdf';
-
-
-const resume = CV_indira
+import CV_indira from './helpers/CV_indira.pdf';
 
 const CV = () => {
 

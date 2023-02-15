@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Header from '../Components/Header';
 import { Link } from 'react-router-dom';
-import headshoot from './headshoot.jpg';
+import headshoot from '../Components/helpers/headshoot.jpg';
 
 
 const profileImg = headshoot
