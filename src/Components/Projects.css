@@ -21,44 +21,7 @@
     margin-right: 10%;
     margin-top: 2%;
     font-size: 2rem;
-    color: aliceblue;
 }
 #back:hover {
     color: #5999E8;
 }
-
-
-/* #question-mark {
-    margin-left: 1.5%;
-    margin-top: 47%;
-    font-size: 40px;
-    border-bottom: 2px solid blueviolet;
-    border-right: 2px solid blueviolet;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    border-radius: 50%;
-    padding: -5px;
-    cursor: pointer;
-}
-
-#question-mark:hover {
-    transform: scale(2, 2);
-    transform-origin: center;
-    color: rgb(247, 247, 247);
-} */
-
-/* #text{
-    float: center;
-    position: absolute;
-    text-align: center;
-    color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    color: black;
-    z-index: 1;
-        
-} */
