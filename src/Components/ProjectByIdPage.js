@@ -19,12 +19,12 @@ const ProjectByIdPage = ({ projects }) => {
             <Link id='individual-back' to="/projects"><i className="fa fa-arrow-left"> Back to projects showcase</i> </Link>
         <div id='content-background'>
             <img id='individual-img'src={project.projectImg}/>
-            <p id='individual-stack'><b>Stack:</b> {project.stack}</p>
-            <p id='individual-nature'><b>Nature:</b> {project.nature}</p>
-            <p id='individual-duration'><b>Duration:</b> {project.duration}</p>
-            <p id='individual-goal'><b>Project Goal:</b> {project.goal}</p>
-            <p id='individual-solution'><b>Solution:</b> {project.solution}</p>
-            <p id='individual-feature'><b>Features:</b>{project.features}</p>
+            <p id='individual-stack'><b>Stack: </b>&nbsp;{project.stack}</p>
+            <p id='individual-nature'><b>Nature:</b>&nbsp;{project.nature} </p>
+            <p id='individual-duration'><b>Duration: </b>&nbsp;{project.duration}</p>
+            <p id='individual-goal'><b>Project Goal:</b>&nbsp;{project.goal}</p>
+            <p id='individual-solution'><b>Solution:</b>&nbsp;{project.solution}</p>
+            <p id='individual-feature'><b>Features:</b>&nbsp;{project.features}</p>
             <a id='individual-github-link' href={project.projectUrl}><b>GitHub link</b></a>
         </div>
         </div>

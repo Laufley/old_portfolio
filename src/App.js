@@ -42,9 +42,9 @@ function App() {
         stack: "Python, Flask, SQL HTML, CSS",
         nature: "individual project",
         duration: "6 days",
-        goal: "My client (business-owner) needed a website to showcase his new business, which at the same would allow him manage all the bookings between customers and gaming sessions.",
-        solution: "I created a whole-in-one comprehensive website solution for my client where his customers can browse sessions and interact with the page to get more info on different topics, and I also added a booking feature for him to manage all the bookings.",
-        features: "3",
+        goal: "My client Ulf (a business-owner of a Dungeons and Dragons club) needed a website to promote his new business and also a CRM system to manage all the bookings",
+        solution: "Since Ulf was on a low budget, I created a whole-in-one solution; a fullstack website with different pages for his customers to interact with and navigate regarding his business, and an additional admin feature exclusively for Ulf to use which is only accesible by login and allows him to manage his business as requested. Many to many db relationship used.",
+        features: "The website contains 7 sections: Home, Dungeon Masters, Upcoming events, Tips and Guides, About, Contact Us, and the Management section. Ulf's customers can navigate through the pages and interact with them to gather the information they need, whilst Only needs to access to the Management page by login to do all the admin. There, he can go to Sessions or Players and perform all CRUD actions. Ulf can also add images to the sessions he updates or adds, and those images as well ass the information of the current sessions will display in the public section of his page. Finally, my user is able to see how many people are booked in for each session/campaign, and the system won't allow him to book a slot if the session is already full.",
     },
     {
         title: "Monster archives",
@@ -53,9 +53,9 @@ function App() {
         stack: "JavaScript, React, HTML, CSS",
         nature: "individual project",
         duration: "3 days",
-        goal: "to train myself on fetching complex and incomplete APIs.",
-        solution: "I fetched and displayed data from a public and original Dungeons & Dragons API, created an interactive app for the user, and added music features",
-        features: "3",
+        goal: "To help Dungeon Masters find D&D monsters' main information quickly so that the time they spend creating games for the players is optimised",
+        solution: "I created a small webapp which displays all existing D&D monsters' information, using a Dungeons and Dragons public API. I also added music features to help them relax or energize depending on their needs",
+        features: "I fetched and displayed data from a public and original Dungeons & Dragons API (which was quite big and complex as it was split in unfinished bits), and created an interactive app for the users which allows them use dynamic search, onClick searches which display info by id, and also pagination. Since not all API entries had an image, I used conditional logic to display a dummy picture when necessary. Finally, I and added a couple of music buttons with two different tracks depending on the user's mood which onClick makes the track stop or play again from the point where they stopped it, offering them fully control and hopefuly bring a better user experience.",
     },
     {
         title: "Endangered Species",
@@ -64,9 +64,9 @@ function App() {
         stack: "JavaScript, React, HTML, CSS",
         nature: "individual project",
         duration: "2 days",
-        goal: "to train myself and interact with the DOM directly without jsx and see how things work on the background.",
-        solution: "This is a basic js DOM events handling webapp to input endangered species of animals.",
-        features: "3",
+        goal: "To train myself and interact with the DOM directly without jsx and see how things work on the background",
+        solution: "I like to work on interesting and meaningful projects, so I made the app about Mass extintion events so that our population at scale could be updated of the status of many different species by user input and raise awareness - if it was a commercial app. So, This is a basic js DOM events handling webapp to input endangered species of animals.",
+        features: "It contains 3 main features. First, it is informative as it allows the user to learn more about mass extintion events through a link. Secondly, It contains an Action form with a submit form and a dropdown menu which on submission allows the user to input a species name and its location. Finally, all input information is added and visually displayed on a featured list for every visitor to be updated, the list can be deleted if necessary.",
     }
     
     ]);

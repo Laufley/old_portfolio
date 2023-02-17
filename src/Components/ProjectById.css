@@ -22,7 +22,7 @@
         [individual-feature] auto;
     width: 80%;
     margin-left: 6rem;
-    margin-top: 6rem;
+    margin-top: 7rem;
     padding: 2rem;
     font-size: 18px;
 }
@@ -30,6 +30,7 @@
 #individual-title{
     grid-area: individual-title;
     color:rgb(249, 246, 246);
+    font-size: 50px;
     justify-content: flex-start;
     box-shadow: #5999E8;
     margin-left: 8rem;
@@ -39,7 +40,7 @@
     grid-area: individual-back;
     display: flex;
     margin-left: 45rem;
-    margin-top: 1.8%;
+    margin-top: 2%;
     color:#393235;
     font-size: 2rem;
     text-decoration: none;
@@ -101,9 +102,9 @@
     margin-top: 2rem;
     display: flex;
     grid-area: individual-link;
-    color: rgb(245, 233, 4);
+    color: rgb(254, 240, 255);
 }
 
 #individual-github-link:hover {
-    color: rgb(254, 240, 255);
+    color: rgb(245, 233, 4);
 }
