@@ -31,7 +31,7 @@ const Carousel = ({listOfProjects}) => {
             </div> 
             <div id='second-item'>
                 {listOfProjects[currentProjectIndex + 1]}
-            </div>
+            </div> 
             <div>
                 <button className="button" id="button-previous" onClick={handlePrevious}> <i className="fa">&#xf100;</i></button>
                 <button className="button" id="button-next" onClick={handleNext}><i className="fa">&#xf101;</i> </button>

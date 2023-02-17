@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat
     ('first-item, second-item');
-    gap: 20px;
+    gap: 1rem;
     overflow: hidden;
     width: 100%;
     scroll-behavior: smooth;
@@ -12,6 +12,8 @@
     display: flex;
     grid-area: first-item;
     grid-column: 1/2;
+    margin-left: 10rem;
+    margin-right: 5rem;
 }
 
 
@@ -21,6 +23,7 @@
     grid-column: 2/2;
     cursor: default;
     pointer-events: none;
+
 }
 
 /* Buttons */
@@ -29,9 +32,9 @@
     display: flex;
     position: absolute;
     background-color: rgba(137, 43, 226, 0.48);
-    font-size: 80px;
+    font-size: 90px;
     z-index: 1;
-    margin-top: 40%;
+    margin-top: 20%;
     border-radius: 30%;
     border-width: 6px;
     border-top: 2px solid blueviolet;
