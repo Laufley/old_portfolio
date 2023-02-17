@@ -111,11 +111,11 @@ const Home = () =>{
         <Aside>
             <Picture src={profileImg}></Picture>
             <Details> 
-                    <LinkStyle to='/portfolio/CV'> <i className="fa">&#xf12e;</i> Résumé </LinkStyle>
+                    <LinkStyle to='/CV'> <i className="fa">&#xf12e;</i> Résumé </LinkStyle>
                     <LinkStyle to='https://github.com/Laufley' target="_blank"><i className="fa fa-github"> GitHub</i></LinkStyle>
                     <LinkStyle to='https://www.linkedin.com/in/indira-borras/' target="_blank"><i className="fa fa-linkedin"> LinkedIn</i></LinkStyle>
             </Details>
-            <LinkStyled to="/portfolio/Projects"><Button>PROJECTS</Button></LinkStyled>
+            <LinkStyled to="/Projects"><Button>PROJECTS</Button></LinkStyled>
         </Aside>
         <Main>
             <Intro><h1>I am a junior software developer passionate about my craft. </h1></Intro>

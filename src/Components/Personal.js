@@ -97,16 +97,16 @@ font-size:16px;
 
 const Personal = () => {
 
-    const [route, setRoute] = useState('/portfolio/personal');
+    const [route, setRoute] = useState('/personal');
     
     return (
         <div>
         <Header route={route} setRoute={setRoute} />
-        {route === '/portfolio/personal' && <div>
+        {route === '/personal' && <div>
         <Aside>
             <Picture src={personalImg}></Picture>
             <Details> 
-                    <LinkStyle to='/portfolio/CV'> <i className="fa">&#xf12e;</i> Résumé </LinkStyle>
+                    <LinkStyle to='/CV'> <i className="fa">&#xf12e;</i> Résumé </LinkStyle>
                     <LinkStyle to='https://github.com/Laufley' target="_blank"><i className="fa fa-github"> GitHub</i></LinkStyle>
                     <LinkStyle to='https://www.linkedin.com/in/indira-borras/' target="_blank"><i className="fa fa-linkedin"> LinkedIn</i></LinkStyle>
             </Details>

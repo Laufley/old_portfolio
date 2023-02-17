@@ -16,7 +16,7 @@ const ProjectByIdPage = ({ projects }) => {
     return ( project &&
         <div id='project-by-page-nav'>
             <h1 id='individual-title'>{project.title}</h1>
-            <Link id='individual-back' to="/portfolio/projects"><i className="fa fa-arrow-left"> Back to projects showcase</i> </Link>
+            <Link id='individual-back' to="/projects"><i className="fa fa-arrow-left"> Back to projects showcase</i> </Link>
         <div id='content-background'>
             <img id='individual-img'src={project.projectImg}/>
             <p id='individual-stack'><b>Stack: </b>&nbsp;{project.stack}</p>
