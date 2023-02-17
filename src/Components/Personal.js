@@ -186,7 +186,7 @@ const Personal = () => {
                         <b>Sustainability:</b> 
                         I've currently adopted turtles in the Antartic, corals in Oceania, trees, and bee hives.<br></br> 
                         Some links for the curious: 
-                        <a href='https://coralgardeners.org/?gclid=Cj0KCQiAorKfBhC0ARIsAHDzsltT9yk3irj3A4zYIL7wTQ23F5pQOGthgfFGkn8cTWUnBSO2gzywKuQaAp7SEALw_wcB' style={{color: 'aliceblue', textDecoration:'none'}}> CoralGardeners</a>, <a href='https://support.wwf.org.uk/adopt-an-animal' style={{color: 'aliceblue', textDecoration:'none'}}> WWF animals</a>
+                        <a className='sustainability-links' href='https://coralgardeners.org/?gclid=Cj0KCQiAorKfBhC0ARIsAHDzsltT9yk3irj3A4zYIL7wTQ23F5pQOGthgfFGkn8cTWUnBSO2gzywKuQaAp7SEALw_wcB'> CoralGardeners</a>, <a className='sustainability-links' href='https://support.wwf.org.uk/adopt-an-animal'> WWF animals</a>
                     </li>
                     <li><b>Children in need</b></li>
                     <li><b>Education and equality of ressources across the globe</b> A big ongoing project of mine is to get more involved in the future in initiatives that help communities get better access to education</li>

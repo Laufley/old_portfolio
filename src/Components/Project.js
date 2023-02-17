@@ -4,7 +4,7 @@ import ProjectByIdPage from './ProjectByIdPage';
 import { Link } from 'react-router-dom';
 
 
-const Project = ({image, title, stack, link, id, goal, solution, duration}) => {
+const Project = ({id, title, image, link, stack, nature, duration, goal, solution, features}) => {
 
     const [selectedProjectId, setSelectedProjectId] = useState(null)
 
@@ -19,7 +19,7 @@ const Project = ({image, title, stack, link, id, goal, solution, duration}) => {
             <div id="details">
                 <div id="project-title"><i className="fa" style={{color: '#5999E8'}}>&#xf02b;</i> {title}</div>
                 <p id="stack"><i className="fa fa-code" style={{color: '#5999E8'}}></i> {stack}</p> 
-                <Link to={`/Projects/${id}`} onClick={handleClick}>Click to go to project page</Link>
+                <Link id='infoitem' to={`/Projects/${id}`} onClick={handleClick}>Click to visit this project</Link>
                 {/* <span id="info"> 
                     <a href={link} id="link-text"> <i className="fa fa-github" style={{color: '#5999E8'}}></i> Github Link</a>
                 </span> */}

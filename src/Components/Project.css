@@ -57,12 +57,12 @@
     margin-left: 2px;   
 }
 
-#info > a {
+#infoitem {
     text-decoration: none;
     color: #dcdcf1;
 }
 
-#info > a:hover {
+#infoitem:hover {
     color: #ed1682;
 }
 

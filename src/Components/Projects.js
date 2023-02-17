@@ -18,13 +18,15 @@ function Projects({projects}) {
     return( 
         <>
         <Project id={index}
-            image={projectObj.projectImg}
             title={projectObj.title}
-            stack={projectObj.stack}
+            image={projectObj.projectImg}
             link={projectObj.projectUrl}
+            stack={projectObj.stack}
+            nature={projectObj.nature}
+            duration={projectObj.duration}
             goal={projectObj.goal}
             solution={projectObj.solution}
-            duration={projectObj.duration}
+            features={projectObj.features}
             />
         </>
         )

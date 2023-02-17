@@ -1,0 +1,109 @@
+#project-by-page-nav {
+    display: grid;
+    grid-template-rows: 
+        'individual-title individual-back'
+        'content-background';
+}
+
+#content-background {
+    display: flex;
+    grid-area: content-background;
+    background-color: rgba(0, 0, 0, 0.372);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 
+        [individual-img] auto
+        [individual-stack] auto
+        [individual-nature] auto
+        [individual-duration] auto
+        [individual-goal] auto
+        [individual-solution] auto
+        [individual-feature] auto;
+    width: 80%;
+    margin-left: 6rem;
+    margin-top: 6rem;
+    padding: 2rem;
+    font-size: 18px;
+}
+
+#individual-title{
+    grid-area: individual-title;
+    color:rgb(249, 246, 246);
+    justify-content: flex-start;
+    box-shadow: #5999E8;
+    margin-left: 8rem;
+}
+
+#individual-back {
+    grid-area: individual-back;
+    display: flex;
+    margin-left: 45rem;
+    margin-top: 1.8%;
+    color:#393235;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#individual-back:hover {
+    color: blueviolet;
+}
+
+
+#individual-img{
+    display: flex;
+    grid-area: individual-img;
+    height: 30rem;
+    width: 60rem;
+    justify-self: center;
+    border: 4px solid #393235;
+    border-radius: 1rem;
+    box-shadow: 5px 4px #2c2c2d;
+}
+
+#individual-stack{
+    margin-top: 2rem;
+    display: flex;
+    grid-area: individual-stack;
+}
+
+#individual-nature {
+    margin-top: 2rem;
+    display: flex;
+    grid-area: individual-nature;
+}
+
+#individual-goal{
+    margin-top: 2rem;
+    display: flex;
+    grid-area: individual-goal;
+}
+
+#individual-solution{
+    margin-top: 2rem;
+    display: flex;
+    grid-area: individual-solution;
+}
+
+#individual-feature {
+    margin-top: 2rem;
+    display: flex;
+    grid-area: individual-feature;
+}
+
+#individual-duration{
+    margin-top: 2rem;
+    display: flex;
+    grid-area: individual-duration;
+}
+
+#individual-github-link{
+    margin-top: 2rem;
+    display: flex;
+    grid-area: individual-link;
+    color: rgb(245, 233, 4);
+}
+
+#individual-github-link:hover {
+    color: rgb(254, 240, 255);
+}
