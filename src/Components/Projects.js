@@ -39,7 +39,7 @@ function Projects({projects}) {
         <div id="page-wrapper">
             <div id='nav'>
                 <h1>Projects Showcase</h1>
-                <Link id='back' to="/"><i className="fa fa-arrow-left"> Back to main page</i> </Link>
+                <Link id='back' to="/portfolio"><i className="fa fa-arrow-left"> Back to main page</i> </Link>
             </div>
             <Carousel listOfProjects={listOfProjects}/>
             {/* <ProjectByIdPage projects={projects}/> */}

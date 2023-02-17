@@ -76,11 +76,11 @@ function App() {
     <Routes>
       <Route exact path='/' element={<Home/>}> </Route>
       <Route exact path='/portfolio' element={<Home/>}> </Route>
-      <Route exact path='/home' element={<Home/>}> </Route>
-      <Route path='/Personal' element={<Personal/>}></Route>
-      <Route path='/Projects' element={<Projects projects={projects}/>}></Route>
-      <Route path='/Projects/:id' element={<ProjectByIdPage projects={projects}/>}></Route>
-      <Route path='/CV' element={<CV/>}></Route>
+      <Route exact path='/portfolio/home' element={<Home/>}> </Route>
+      <Route path='/portfolio/Personal' element={<Personal/>}></Route>
+      <Route path='/portfolio/Projects' element={<Projects projects={projects}/>}></Route>
+      <Route path='/portfolio/Projects/:id' element={<ProjectByIdPage projects={projects}/>}></Route>
+      <Route path='/portfolio/CV' element={<CV/>}></Route>
       <Route path="*" element={< ErrorPage />}/>
     </Routes>
   </Router>

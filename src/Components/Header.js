@@ -99,8 +99,8 @@ const Header = ({ route, setRoute }) => {
         <TopContent>
         <Title>Indira Borras Gonzalez</Title>
         <ButtonsWrapper>
-        <LinkStyled to="/Home"><Button1>Professional</Button1></LinkStyled>
-        <LinkStyled to="/Personal"><Button2>Personal</Button2></LinkStyled>
+        <LinkStyled to="/portfolio/Home"><Button1>Professional</Button1></LinkStyled>
+        <LinkStyled to="/portfolio/Personal"><Button2>Personal</Button2></LinkStyled>
         </ButtonsWrapper>
         </TopContent>
     </Main>
