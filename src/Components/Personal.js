@@ -7,92 +7,20 @@ import goofy from './helpers/goofy.jpeg'
 
 const personalImg = goofy
 
-
-const Aside = styled.div`
-float: right;
-position: sticky;
-top: 0;
-margin-right: 10%;
-margin-top: -20%;
-`
-const Picture = styled.img`
-    width: 80%;
-    padding: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.79);
-    width: 300px;
-    height: 400;
-    background-color: white;
-    vertical-align: middle;
-    transform: rotate(8deg);
-`
-const Details = styled.div`
-display: flex;
-list-style: none;
-flex-direction: row;
-justify-content: space-between;
-margin-top: 20%;
-`
-const LinkStyle = styled(Link)`
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #4F0080;
-    &:hover{
-        color: whitesmoke;
-    }
-`
-const Main = styled.div`
-display: grid;
-grid-template-rows: repeat(2, auto);
-padding: 5%;
-background-color: rgba(88, 85, 85, 0.653);
-`
-const Intro = styled.div`
-display: flex;
-grid-area: Intro;
-grid-template-columns: 1fr; 
-flex-direction: column;
-margin-left: 2%;
-margin-top: -5%;
-`
-
-const Content = styled.div`
-display: flex;
-grid-area: Content;
-margin-top: 12%;
-grid-template-columns: 1fr; 
-flex-direction: column;
-margin-left: 4%;
-`
-
-const Button = styled.div`
-    position: relative;
-    top: 0;
-    padding: 1rem 2rem;
-    font-weight: 700;
-    background: rgb(255, 255, 255);
-    color: blueviolet;
-    border-radius: .5rem;
-    border-bottom: 2px solid blueviolet;
-    border-right: 2px solid blueviolet;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    transition-duration: 1s;
-    transition-property: border-top, 
-    border-left, 
-    border-bottom,
-    border-right,
-    box-shadow;
-    &:hover {
-    border-top: 2px solid blueviolet;
-    border-left: 2px solid blueviolet;
-    border-bottom: 2px solid rgb(238, 103, 238);
-    border-right: 2px solid rgb(238, 103, 238);
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
-    }
-`
 const Text = styled.p `
 font-size:16px;
+`
+const PersonalContainer = styled.div `
+position: relative;
+`
+const Life = styled.h2 `
+position: absolute;
+top: 100%;
+padding-top: 2rem;
+`
+const Pre = styled.pre`
+position: relative;
+padding-top: 13%;
 `
 
 const Personal = () => {
@@ -103,20 +31,21 @@ const Personal = () => {
         <div>
         <Header route={route} setRoute={setRoute} />
         {route === '/personal' && <div>
-        <Aside>
-            <Picture src={personalImg}></Picture>
-            <Details> 
-                    <LinkStyle to='/CV'> <i className="fa">&#xf12e;</i> Résumé </LinkStyle>
-                    <LinkStyle to='https://github.com/Laufley' target="_blank"><i className="fa fa-github"> GitHub</i></LinkStyle>
-                    <LinkStyle to='https://www.linkedin.com/in/indira-borras/' target="_blank"><i className="fa fa-linkedin"> LinkedIn</i></LinkStyle>
-            </Details>
-        </Aside>
-        <Main>
-            <Intro><h1>I'm an explorer, a leader when needed <br></br>
-                and a bit of a goof.</h1></Intro>
-            <Content>
-            <h2>Life</h2>
-            <pre><Text> 
+        <div id='Aside'>
+            <img id='personal-picture' src={personalImg}></img>
+            <div id='personal-details'> 
+                    <Link className='personal-linkStyle' to='/CV'> <i className="fa">&#xf12e;</i> Résumé </Link>
+                    <Link className='personal-linkStyle' to='https://github.com/Laufley' target="_blank"><i className="fa fa-github"> GitHub</i></Link>
+                    <Link className='personal-linkStyle' to='https://www.linkedin.com/in/indira-borras/' target="_blank"><i className="fa fa-linkedin"> LinkedIn</i></Link>
+            </div>
+        </div>
+        <div id='personal-main'>
+            <PersonalContainer>
+                <div id='personal-intro'><h1>I'm an explorer, a leader when needed <br></br>
+                and a bit of a goof.</h1></div>
+                <Life>Life</Life>
+            </PersonalContainer>
+            <Pre><Text> 
             life = list(range(1, 1001)) <br></br>
             print(life)<br></br><br></br>
 
@@ -124,7 +53,7 @@ const Personal = () => {
             for lemons in life:<br></br>
             lemonade += lemons<br></br>
             print Lemonade</Text>
-            </pre>
+            </Pre>
             <section>
                 <h4>What is a Spaniard doing in Edinburgh, Indira?</h4>
                 <Text>Good question. I sometimes wonder that myself. I moved here for love, leaving my previous career behind. And you know what? I don't regret it, if there is something out there to fight for, that is love - for cheesy as it sounds. Btw, in the end it didn't work out and we split up after 10y BUT! remember the lemons ;) </Text>
@@ -208,8 +137,7 @@ const Personal = () => {
                     <span className="s-letter">S</span>
                 </p>
             </section>
-            </Content>
-        </Main>
+            </div>
         </div>}
         </div>
     

@@ -1,17 +1,10 @@
-import {React, useState} from 'react'
+import {React} from 'react'
 import './Projects.css';
 import Project from './Project';
-
 import { Link } from 'react-router-dom';
 import Carousel from './Carousel';
-import ProjectByIdPage from './ProjectByIdPage';
-
-
-
 
 function Projects({projects}) {
-
-    const [selectedProjectId, setSelectedProjectId] = useState(null)
 
 
     const listOfProjects = projects.map( (projectObj, index) => {

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css';
 import styled from 'styled-components';
 import Header from '../Components/Header';
 import { Link } from 'react-router-dom';
@@ -6,64 +7,6 @@ import headshoot from '../Components/helpers/headshoot.jpg';
 
 
 const profileImg = headshoot
-
-const Aside = styled.div`
-float: right;
-position: sticky;
-top: 0;
-margin-right: 10%;
-margin-top: -20%;
-`
-const Picture = styled.img`
-    width: 80%;
-    padding: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.79);
-    width: 300px;
-    height: 400;
-    background-color: white;
-    vertical-align: middle;
-    transform: rotate(8deg);
-`
-const Details = styled.div`
-display: flex;
-list-style: none;
-flex-direction: row;
-justify-content: space-between;
-margin-top: 20%;
-`
-const LinkStyle = styled(Link)`
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #4F0080;
-    &:hover{
-        color: whitesmoke;
-    }
-`
-
-const Main = styled.div`
-display: grid;
-grid-template-rows: repeat(2, auto);
-padding: 5%;
-background-color: rgba(88, 85, 85, 0.653);
-`
-const Intro = styled.div`
-display: flex;
-grid-area: Intro;
-grid-template-columns: 1fr; 
-flex-direction: column;
-margin-left: 2%;
-margin-top: -5%;
-`
-
-const Content = styled.div`
-display: flex;
-grid-area: Content;
-margin-top: 12%;
-grid-template-columns: 1fr; 
-flex-direction: column;
-margin-left: 4%;
-`
 
 const Button = styled.div`
     position: relative;
@@ -97,29 +40,24 @@ const Button = styled.div`
     }
 `
 
-const LinkStyled = styled(Link)`
-text-decoration: none;
-` 
-
-
 const Home = () =>{
     
 
     return (
     <>
         <Header/>
-        <Aside>
-            <Picture src={profileImg}></Picture>
-            <Details> 
-                    <LinkStyle to='/CV'> <i className="fa">&#xf12e;</i> Résumé </LinkStyle>
-                    <LinkStyle to='https://github.com/Laufley' target="_blank"><i className="fa fa-github"> GitHub</i></LinkStyle>
-                    <LinkStyle to='https://www.linkedin.com/in/indira-borras/' target="_blank"><i className="fa fa-linkedin"> LinkedIn</i></LinkStyle>
-            </Details>
-            <LinkStyled to="/Projects"><Button>PROJECTS</Button></LinkStyled>
-        </Aside>
-        <Main>
-            <Intro><h1>I am a junior software developer passionate about my craft. </h1></Intro>
-            <Content>
+        <div id='Aside'>
+            <img id='profilePicture' src={profileImg}></img>
+            <div id='Details'> 
+                    <Link className='LinkStyle' to='/CV'> <i className="fa">&#xf12e;</i> Résumé </Link>
+                    <Link className='LinkStyle' to='https://github.com/Laufley' target="_blank"><i className="fa fa-github"> GitHub</i></Link>
+                    <Link className='LinkStyle' to='https://www.linkedin.com/in/indira-borras/' target="_blank"><i className="fa fa-linkedin"> LinkedIn</i></Link>
+            </div>
+            <Link id='LinkStyled' to="/Projects"><Button>PROJECTS</Button></Link>
+        </div>
+        <div id='Main'>
+            <div id='Intro'><h1>I am a junior software developer passionate about my craft. </h1></div>
+            <div id='Content'>
             <h2>Web development</h2>
             <h4>JavaScript</h4>
                 <p>I have worked alone and in a team over several projects, both in front-end and back-end using React, Node.js, HTML, and CSS.
@@ -182,8 +120,8 @@ const Home = () =>{
                 My software developer career is just starting, and this will me an incredible learning curve for me again. I can't wait.
 
             </h4>
-            </Content>
-        </Main>
+            </div>
+        </div>
     </>
     );
 }

@@ -1,3 +1,69 @@
+#personal-main {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    padding: 5%;
+    background-color: rgba(88, 85, 85, 0.653);
+}
+
+#personal-content {
+
+    display: flex;
+    grid-area: Content;
+    margin-top: 12%;
+    grid-template-columns: 1fr; 
+    flex-direction: column;
+    margin-left: 4%;
+
+}
+
+#personal-intro{
+    display: flex;
+    grid-area: Intro;
+    grid-template-columns: 1fr; 
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: -5%;
+}
+
+
+#Aside {
+    float: right;
+    position: sticky;
+    top: 0;
+    margin-right: 10%;
+    margin-top: -20%;
+}
+
+#personal-picture {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.79);
+    width: 300px;
+    height: 400;
+    background-color: white;
+    vertical-align: middle;
+    transform: rotate(8deg);
+}
+
+#personal-details {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+
+.personal-linkStyle{
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #4F0080;
+}
+
+.personal-linkStyle:hover {
+    color: whitesmoke;
+}
+
 .sustainability-links {
     color: aliceblue;
     text-decoration: none;
@@ -7,18 +73,10 @@
     color: rgb(248, 248, 3);
 }
 
-
+/* I love ducks easter egg */
 .duck-name{
     font-size: 30px;
     text-align: center;
-}
-
-.a-letter:hover {
-    color: rgb(0, 0, 0);
-}
-
-.b-letter:hover {
-    color: black;
 }
 
 .c-letter:hover {
@@ -33,24 +91,8 @@
     color: rgb(255, 0, 0);
 }
 
-.f-letter:hover {
-    color: black;
-}
-
-.g-letter:hover {
-    color: black;
-}
-
-.h-letter:hover {
-    color: black;
-}
-
 .i-letter:hover {
     color: rgb(234, 255, 0);
-}
-
-.j-letter:hover {
-    color: black;
 }
 
 .k-letter:hover {
@@ -61,36 +103,12 @@
     color: rgb(249, 77, 231);
 }
 
-.m-letter:hover {
-    color: black;
-}
-
-.n-letter:hover {
-    color: black;
-}
-
 .o-letter:hover {
     color: rgb(0, 85, 255);
 }
 
-.p-letter:hover {
-    color: black;
-}
-
-.p-letter:hover {
-    color: black;
-}
-
-.r-letter:hover {
-    color: black;
-}
-
 .s-letter:hover {
     color: rgb(153, 255, 0);
-}
-
-.t-letter:hover {
-    color: black;
 }
 
 .u-letter:hover {
@@ -99,22 +117,6 @@
 
 .v-letter:hover {
     color: rgb(26, 255, 0);
-}
-
-.w-letter:hover {
-    color: black;
-}
-
-.x-letter:hover {
-    color: black;
-}
-
-.y-letter:hover {
-    color: black;
-}
-
-.z-letter:hover {
-    color: black;
 }
 
 
