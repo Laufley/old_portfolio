@@ -1,5 +1,5 @@
 import React from 'react'
-import CV_indira from './helpers/CV_indira.pdf';
+import CV_indira from './helpers/CV_Indira_Borras.pdf';
 
 const CV = () => {
 
