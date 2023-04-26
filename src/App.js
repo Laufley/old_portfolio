@@ -11,12 +11,14 @@ import monster_archives from './Components/helpers/monster_archives.jpeg'
 import dnd_vault from './Components/helpers/dnd_vault.jpeg'
 import species from './Components/helpers/species.jpeg'
 import marine_life from './Components/helpers/marine_life.jpeg'
+import children_of_the_bookcase from './Components/helpers/children_of_the_bookcase.jpeg'
 
 
 const animals = species
 const monsters = monster_archives
 const vault = dnd_vault
 const marine = marine_life
+const game = children_of_the_bookcase
 
 function App() {
 
@@ -58,6 +60,17 @@ function App() {
         features: "I fetched and displayed data from a public and original Dungeons & Dragons API (which was quite big and complex as it was split in unfinished bits), and created an interactive app for the users which allows them use dynamic search, onClick searches which display info by id, and also pagination. Since not all API entries had an image, I used conditional logic to display a dummy picture when necessary. Finally, I and added a couple of music buttons with two different tracks depending on the user's mood which onClick makes the track stop or play again from the point where they stopped it, offering them fully control and hopefuly bring a better user experience.",
     },
     {
+      title: "Game! - Children of the bookcase",
+      projectImg: game,
+      projectUrl: "https://github.com/Laufley/Escape_Game",
+      stack: "C#, Unity",
+      nature: "team project",
+      duration: "11 days",
+      goal: "To challenge ourselves greatly in a short period of time: learning enough of a new language & a game engine to deliver what we aimed for, to push our limits, and to create a game which sounds very exciting!",
+      solution: "Children of the Bookcase is a 3D, escape-room style, detective puzzle game. Built by us - namelessGamesInc. Published & ready to play in unity store under this link: https://play.unity.com/mg/other/children-of-the-bookcase",
+      features: "First person 3D graphics, puzzles, music, animations, menu scene, credits scene, (some) own assets, and other cool surprises!"
+    },
+    {
         title: "Endangered Species",
         projectImg: animals,
         projectUrl: "https://github.com/Laufley/Endangered_animals_DOM_hw_js",
@@ -68,7 +81,6 @@ function App() {
         solution: "I like to work on interesting and meaningful projects, so I made the app about Mass extintion events so that our population at scale could be updated of the status of many different species by user input and raise awareness - if it was a commercial app. So, This is a basic js DOM events handling webapp to input endangered species of animals.",
         features: "It contains 3 main features. First, it is informative as it allows the user to learn more about mass extintion events through a link. Secondly, It contains an Action form with a submit form and a dropdown menu which on submission allows the user to input a species name and its location. Finally, all input information is added and visually displayed on a featured list for every visitor to be updated, the list can be deleted if necessary.",
     }
-    
     ]);
 
   return (

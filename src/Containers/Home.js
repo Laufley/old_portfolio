@@ -63,14 +63,27 @@ const Home = () =>{
                 <p>I have worked alone and in a team over several projects, both in front-end and back-end using React, Node.js, HTML, and CSS.
                 <br></br>
                 <br></br>
-                All throughout my career I've always focused on my end users, this may be why even when I appreciate the back-end logic I do prefer front-end and event-driven development.
+                All throughout my career I've always been focused on my end users; fascinated by how to grab their attention and by tailoring their experience with eye-catching and meaningful material.<br></br> 
+                This may be why — even when I appreciate back-end logic — I do prefer front-end and <br></br> event-driven development more than any other kind. I can't get enough of it!
                     
                 </p>
             <h4>Python</h4>
-                <p> Great and versatile language, no wonder it's so widely used! I do appreciate the fact that is not dynamically typed when I compare it with JS - the many typos I could have avoided...
+                <p> Great and versatile language, no wonder it's so widely used. I do appreciate the fact that is not dynamically typed compared to JS - the many typos I could have avoided!
                 <br></br>
                 <br></br>
                 I do enjoy Python as well, And I have worked alone and collaborated with others to create apps using Flask, SQL, HTML, CSS.
+                </p>
+            <h4>Java</h4>
+                <p> Working with Java was a great experience, even more so when debbuging. I have never enjoyed debbuging so much before.
+                <br></br>
+                <br></br>
+                I have worked on Java projects by myself and in a team building apps with Spring.
+                </p>
+            <h4>C#</h4>
+                <p> I took it upon myself to learn bits and bobs of C# and Unity engine. Just enough to build a small game and have a little taste for it. Afterall, you never know if you like something until you've tried it, right?
+                <br></br>
+                <br></br>
+                Check my projects page for more info about the game ;)
                 </p>
             <h2>Databases</h2>
             <p> SQL and MongoDB</p>
@@ -113,8 +126,8 @@ const Home = () =>{
                 I really enjoy improving things, finding solutions, helping teams grow... I feel good when I'm adding value and I see a real impact from my efforts.
                 When I manage to make my team's life easier or to surprise my clients with nice additions they didn't expect THAT drives me.
                 <br></br><br></br>
-                Programming allows me to create not only for myself or my team, but for a wider audience. 
-                Hopefuly my small actions in the bigger team picture will make our users happier.
+                Programming allows me to create not only for myself but for a wider audience. 
+                Hopefuly my small actions within the bigger team picture will make our users happier.
                 <br></br><br></br>
                 I'm a hardworker and I like to feel proud of my craft.
                 My software developer career is just starting, and this will me an incredible learning curve for me again. I can't wait.
