@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a44e5400.css",
-    "main.js": "/portfolio/static/js/main.dc4a06bf.js",
+    "main.js": "/portfolio/static/js/main.3fb4078b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/species.jpeg": "/portfolio/static/media/species.89ad224cf806a574204f.jpeg",
     "static/media/dnd_vault.jpeg": "/portfolio/static/media/dnd_vault.dfb307742183b81095be.jpeg",
     "static/media/marine_life.jpeg": "/portfolio/static/media/marine_life.6115f0b43f2b088537a4.jpeg",
+    "static/media/CV_Indira_Borras.pdf": "/portfolio/static/media/CV_Indira_Borras.70b20e1509c6f2fa3c5b.pdf",
     "static/media/children_of_the_bookcase.jpeg": "/portfolio/static/media/children_of_the_bookcase.dc17fe4fd48e3258f70b.jpeg",
     "static/media/monster_archives.jpeg": "/portfolio/static/media/monster_archives.6299eab5d59e32f4de84.jpeg",
-    "static/media/CV_Indira_Borras.pdf": "/portfolio/static/media/CV_Indira_Borras.42ceea5fb37f31ae8a1d.pdf",
     "static/media/headshoot.jpg": "/portfolio/static/media/headshoot.dee34425b47dfa981696.jpg",
     "static/media/goofy.jpeg": "/portfolio/static/media/goofy.3b52c0301771e6fc7286.jpeg",
     "index.html": "/portfolio/index.html",
     "main.a44e5400.css.map": "/portfolio/static/css/main.a44e5400.css.map",
-    "main.dc4a06bf.js.map": "/portfolio/static/js/main.dc4a06bf.js.map",
+    "main.3fb4078b.js.map": "/portfolio/static/js/main.3fb4078b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a44e5400.css",
-    "static/js/main.dc4a06bf.js"
+    "static/js/main.3fb4078b.js"
   ]
 }
