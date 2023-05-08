@@ -13,11 +13,13 @@ function Projects({projects}) {
         <Project id={index}
             title={projectObj.title}
             image={projectObj.projectImg}
-            link={projectObj.projectUrl}
+            github_link={projectObj.github_link}
+            demo_link={projectObj.demo_link}
             stack={projectObj.stack}
             nature={projectObj.nature}
             duration={projectObj.duration}
-            goal={projectObj.goal}
+            info={projectObj.info}
+            challenge={projectObj.challenge}
             solution={projectObj.solution}
             features={projectObj.features}
             />

@@ -13,7 +13,10 @@
     grid-template-columns: 1fr; 
     flex-direction: column;
     margin-left: 4%;
+}
 
+.psection-header{
+    color: rgba(240, 248, 255, 0.892);
 }
 
 #personal-intro{
@@ -23,6 +26,7 @@
     flex-direction: column;
     margin-left: 2%;
     margin-top: -5%;
+    font-family: 'Acme', sans-serif;
 }
 
 
@@ -65,18 +69,23 @@
 }
 
 .sustainability-links {
-    color: aliceblue;
+    color: rgb(186, 219, 247);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .sustainability-links:hover{
-    color: rgb(248, 248, 3);
+    color: rgb(240, 247, 186);
+    
 }
+
 
 /* I love ducks easter egg */
 .duck-name{
+    margin-left: 13rem;
+    font-family: 'Acme', sans-serif;
     font-size: 30px;
-    text-align: center;
+    color: rgba(234, 234, 234, 0.454);
 }
 
 .c-letter:hover {

@@ -5,28 +5,6 @@
         'content-background';
 }
 
-#content-background {
-    display: flex;
-    grid-area: content-background;
-    background-color: rgba(0, 0, 0, 0.372);
-    border-radius: 1rem;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 
-        [individual-img] auto
-        [individual-stack] auto
-        [individual-nature] auto
-        [individual-duration] auto
-        [individual-goal] auto
-        [individual-solution] auto
-        [individual-feature] auto;
-    width: 80%;
-    margin-left: 6rem;
-    margin-top: 7rem;
-    padding: 2rem;
-    font-size: 18px;
-}
-
 #individual-title{
     grid-area: individual-title;
     color:rgb(249, 246, 246);
@@ -50,6 +28,28 @@
     color: blueviolet;
 }
 
+#content-background {
+    display: flex;
+    grid-area: content-background;
+    background-color: rgba(0, 0, 0, 0.372);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 
+        [individual-img individual-img] auto
+        [individual-stack individual-stack] auto
+        [individual-nature individual-nature] auto
+        [individual-duration individual-duration] auto 
+        [individual-info individual-info] auto
+        [individual-challenge individual-challenge] auto
+        [individual-solution individual-solution] auto
+        [individual-feature individual-feature] auto
+        [individual-link individual-demo-link] auto ; 
+    width: 80%;
+    margin-left: 6rem;
+    margin-top: 7rem;
+    padding: 2rem;
+    font-size: 18px;
+}
 
 #individual-img{
     display: flex;
@@ -65,36 +65,49 @@
 #individual-stack{
     margin-top: 2rem;
     display: flex;
+    color: aliceblue;
     grid-area: individual-stack;
 }
 
 #individual-nature {
     margin-top: 2rem;
     display: flex;
+    color: aliceblue;
     grid-area: individual-nature;
 }
 
-#individual-goal{
+#individual-info{
     margin-top: 2rem;
     display: flex;
-    grid-area: individual-goal;
+    color: aliceblue;
+    grid-area: individual-info;
+}
+
+#individual-challenge{
+    margin-top: 2rem;
+    display: flex;
+    color: aliceblue;
+    grid-area: individual-challenge;
 }
 
 #individual-solution{
     margin-top: 2rem;
     display: flex;
+    color: aliceblue;
     grid-area: individual-solution;
 }
 
 #individual-feature {
     margin-top: 2rem;
     display: flex;
+    color: aliceblue;
     grid-area: individual-feature;
 }
 
 #individual-duration{
     margin-top: 2rem;
     display: flex;
+    color: aliceblue;
     grid-area: individual-duration;
 }
 
@@ -102,9 +115,25 @@
     margin-top: 2rem;
     display: flex;
     grid-area: individual-link;
-    color: rgb(254, 240, 255);
+    font-family: 'Sigmar', cursive;
+    /* color: rgb(224, 247, 246); */
+    color: rgb(42, 34, 43);
 }
 
-#individual-github-link:hover {
-    color: rgb(245, 233, 4);
+#individual-github-link:hover{
+    /* color: rgb(42, 34, 43); */
+    color: rgb(224, 247, 246);
+}
+
+#individual-demo-link{
+    margin-top: 2rem;
+    margin-left: 20rem;
+    display: flex;
+    grid-area: individual-demo-link;
+    font-family: 'Sigmar', cursive;
+    color: rgb(252, 201, 106);
+}
+
+#individual-demo-link:hover{
+    color: rgb(106, 157, 252);
 }

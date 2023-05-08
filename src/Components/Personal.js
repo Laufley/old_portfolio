@@ -7,9 +7,11 @@ import goofy from './helpers/goofy.jpeg'
 
 const personalImg = goofy
 
-const Text = styled.p `
-font-size:16px;
-`
+const Text = styled.p`
+  font-size: 16px;
+  color: rgb(35, 29, 35);
+`;
+
 const PersonalContainer = styled.div `
 position: relative;
 `
@@ -41,9 +43,8 @@ const Personal = () => {
         </div>
         <div id='personal-main'>
             <PersonalContainer>
-                <div id='personal-intro'><h1>I'm an explorer, a leader when needed <br></br>
-                and a bit of a goof.</h1></div>
-                <Life>Life</Life>
+                <div id='personal-intro'><h1>I'm an explorer, a geek, and a bit of a goof</h1></div>
+                <Life className='psection-header'>Life</Life>
             </PersonalContainer>
             <Pre><Text> 
             life = list(range(1, 1001)) <br></br>
@@ -55,10 +56,10 @@ const Personal = () => {
             print Lemonade</Text>
             </Pre>
             <section>
-                <h4>What is a Spaniard doing in Edinburgh, Indira?</h4>
+                <h4>From Spain to Edinburgh</h4>
                 <Text>Good question. I sometimes wonder that myself. I moved here for love, leaving my previous career behind. And you know what? I don't regret it, if there is something out there to fight for, that is love - for cheesy as it sounds. Btw, in the end it didn't work out and we split up after 10y BUT! remember the lemons ;) </Text>
 
-                <h4>What do you take from your previous work experiences?</h4>
+                <h4>Accumulative career learning</h4>
                 <Text>Well, everything! Because I'm a bit greedy haha <br></br><br></br>
                 I'm very grateful for all the experiences I've had the opportunity to have and the amazing people I've crossed paths with. I've kept so many of these connections...<br></br>
                 Never a dull moment, always moving when I got too comfortable so that I could keep improving myself. <br></br><br></br>
@@ -86,44 +87,44 @@ const Personal = () => {
                 </Text>
             </section>
             <section>
-                <h2>Hobbies</h2>
+                <h2 className='psection-header'>Hobbies</h2>
                 <Text>
-                Life is too short and has too much to offer. <br></br>
-                It's quite humbling to think about all the things awaiting for us to discover.<br></br>
-                And I want to learn as much as I can. Maybe that's why I have so many hobbies! 
+                Life is too short it's quite humbling to think about all the things awaiting for us to discover.<br></br>
+                I want to learn as much as I can while I'm alive. That's why I have so many hobbies! 
                 </Text>
                 <ul>
                     <Text>
-                    <li><b>Writing:</b> I've been writing collaboratively with people all over the globe for years!</li>
-                    <li><b>Reading:</b> Hard sci-fi and Hard fantasy prefered</li>
-                    <li><b>Miniature painting:</b> We use them in our team's D&D camapigns</li>
-                    <li><b>Roleplaying like D&D or GURPS</b>: You would be amazed of how much you can grow and learn from it. Very collaborative too ;)</li>
-                    <li><b>Boardgames and videogames:</b> Platform eclectic</li>
-                    <li><b>Piano</b> just starting but one of my songs made it into an indie game!</li>
-                    <li><b>Video editing:</b> Blender for modelling is so complex!</li>
-                    <li><b>Documentaries:</b> About science, nature and space</li>
-                    <li><b>Hiking:</b> I belong to nature. I'm a mountain goat</li>
-                    <li><b>Travelling:</b> Discovering about the world and other cultures enrichens your soul</li>
-                    <li><b>Improving and fixing things:</b> I can't help it.</li>
+                    <li><b>Coding challenges</b></li>
+                    <li><b>Reading</b></li>
+                    <li><b>Collaborative writing with people all over the globe</b></li>
+                    <li><b>Miniature painting</b></li>
+                    <li><b>Tabletop RPGs</b>: Dungeons & Dragons, GURPS</li>
+                    <li><b>Boardgames and videogames</b></li>
+                    <li><b>Piano playing:</b> beginner</li>
+                    <li><b>Blender:</b> beginner</li>
+                    <li><b>Documentaries</b></li>
+                    <li><b>Hiking</b></li>
+                    <li><b>Travelling:</b> Discovering about the world and other cultures is soul-enriching</li>
+                    <li><b>foodie</b></li>
+                    <li><b>Improving and fixing stuff:</b> I can't help it.</li>
                     </Text>
                 </ul>
             </section> 
             <section>
-                <h2>Causes I care about</h2>
+                <h2 className='psection-header'>Causes I care about</h2>
                 <ul><Text>
                     <li>
-                        <b>Sustainability:</b> 
-                        I've currently adopted turtles in the Antartic, corals in Oceania, trees, and bee hives.<br></br> 
-                        Some links for the curious: 
-                        <a className='sustainability-links' href='https://coralgardeners.org/?gclid=Cj0KCQiAorKfBhC0ARIsAHDzsltT9yk3irj3A4zYIL7wTQ23F5pQOGthgfFGkn8cTWUnBSO2gzywKuQaAp7SEALw_wcB'> CoralGardeners</a>, <a className='sustainability-links' href='https://support.wwf.org.uk/adopt-an-animal'> WWF animals</a>
+                        <b>Sustainability: </b> 
+                        I have helped turtles in the Antartic, corals in the French Polynesia, trees around the world, and local bee hives.<br></br> 
+                        Explore more: <a className='sustainability-links' href='https://coralgardeners.org/?gclid=Cj0KCQiAorKfBhC0ARIsAHDzsltT9yk3irj3A4zYIL7wTQ23F5pQOGthgfFGkn8cTWUnBSO2gzywKuQaAp7SEALw_wcB'> CoralGardeners</a>, <a className='sustainability-links' href='https://support.wwf.org.uk/adopt-an-animal'> WWF animals</a>
                     </li>
-                    <li><b>Children in need</b></li>
-                    <li><b>Education and equality of ressources across the globe</b> A big ongoing project of mine is to get more involved in the future in initiatives that help communities get better access to education</li>
+                    <li><b>Children in impoverished environments</b></li>
+                    <li><b>Education and distribution of ressources across the globe</b> </li>
                     </Text>
                 </ul>
             </section>
             <section>
-            <h3>And...</h3>
+            <h2 className='psection-header'>And...</h2>
                 <p className='duck-name'>
                     <span className="i-letter">I </span>
                     <span className="l-letter">L</span>

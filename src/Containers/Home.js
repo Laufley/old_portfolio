@@ -56,11 +56,11 @@ const Home = () =>{
             <Link id='LinkStyled' to="/Projects"><Button>PROJECTS</Button></Link>
         </div>
         <div id='Main'>
-            <div id='Intro'><h1>I am a junior software developer passionate about my craft. </h1></div>
+            <div id='Intro'><h1>I am a software developer passionate about my craft </h1></div>
             <div id='Content'>
-            <h2>Web development</h2>
+            <h2 className='section-header'><b>Languages:</b></h2>
             <h4>JavaScript</h4>
-                <p>I have worked alone and in a team over several projects, both in front-end and back-end using React, Node.js, HTML, and CSS.
+                <p style={{color: 'rgb(35, 29, 35)'}}>I have worked alone and in a team over several projects, both in front-end and back-end using React, Node.js, HTML, and CSS.
                 <br></br>
                 <br></br>
                 All throughout my career I've always been focused on my end users; fascinated by how to grab their attention and by tailoring their experience with eye-catching and meaningful material.<br></br> 
@@ -68,73 +68,91 @@ const Home = () =>{
                     
                 </p>
             <h4>Python</h4>
-                <p> Great and versatile language, no wonder it's so widely used. I do appreciate the fact that is not dynamically typed compared to JS - the many typos I could have avoided!
+                <p style={{color: 'rgb(35, 29, 35)'}}> Great and versatile language, no wonder it's so widely used. I do appreciate the fact that is not dynamically typed compared to JS - the many typos I could have avoided!
                 <br></br>
                 <br></br>
                 I do enjoy Python as well, And I have worked alone and collaborated with others to create apps using Flask, SQL, HTML, CSS.
                 </p>
             <h4>Java</h4>
-                <p> Working with Java was a great experience, even more so when debbuging. I have never enjoyed debbuging so much before.
+                <p style={{color: 'rgb(35, 29, 35)'}}> Working with Java was a great experience, even more so when debbuging. I have never enjoyed debbuging so much before.
                 <br></br>
                 <br></br>
                 I have worked on Java projects by myself and in a team building apps with Spring.
                 </p>
             <h4>C#</h4>
-                <p> I took it upon myself to learn bits and bobs of C# and Unity engine. Just enough to build a small game and have a little taste for it. Afterall, you never know if you like something until you've tried it, right?
-                <br></br>
-                <br></br>
-                Check my projects page for more info about the game ;)
-                </p>
-            <h2>Databases</h2>
-            <p> SQL and MongoDB</p>
-            <h2>Testing tools</h2>
-            <p>Experience with unit testing, integration testing, and systems testing.
+                <p style={{color: 'rgb(35, 29, 35)'}}> I took it upon myself to learn bits and bobs of C# & Unity engine. Just enough to build a small game for fun. Afterall, you never know if you like something until you've tried it.</p>
+            
+            
+            <h2 className='section-header'>Databases:</h2>
+            <p style={{color: 'rgb(35, 29, 35)'}}> SQL, MongoDB</p>
+            
+            
+            <h2 className='section-header'>Testing tools:</h2>
+            <p style={{color: 'rgb(35, 29, 35)'}}>Experience with unit testing, integration testing, and systems testing.
                 <br></br>
                 Unittest, Pytest, Mocha, Cypress.
             </p>
 
 
-            <h2>Soft Skills</h2>
-            <p>Innate traits + I've learnt from and grown on my roles for every single job I've had:</p>
-                <ul>
-                <li>Curiosity! ... and endless hunger for learning</li>
-                <li>Resilience and self-drive</li>
-                <li>Commitment</li>
-                <li>Passion and enthusiasm</li>
-                <li>Creativity</li>
-                <li>Comfortable working alone or in a team - knowledge sharing is essential!</li>
-                <li>Adaptability (improvise, adapt, overcome)</li>
-                <li>Used to tight deadlines and fast-paced environments</li>
-                <li>Good communication Skills <i>(English, Spanish, Catalan)</i></li>
-                <li>Organising, Planning and Project Management</li>
-                <li>Psychology and diplomacy</li>
-                <li>Leadership, mentoring and training</li>
-                <li>Experience nurturing client relationships</li>
+            <h2 className='section-header'>Soft Skills:</h2>
+                <ul style={{color: 'rgb(35, 29, 35)'}}>
+                <li><b>curious & constantly learning something new</b></li>
+                <li><b>resilient & self-driven</b></li>
+                <li><b>committed</b></li>
+                <li><b>creative</b></li>
+                <li><b>teamworker & solo worker</b></li>
+                <li><b>adaptable</b></li>
+                <li><b>used to tight deadlines and fast-paced environments</b></li>
+                <li><b>good communication Skills</b></li>
+                <li><b>good Organising, Planning and Project Management skills</b></li>
+                <li><b>psychology and diplomacy</b></li>
+                <li><b>leadership, mentoring and training</b></li>
+                <li><b>experience nurturing client relationships</b></li>
             </ul>
 
 
-            <h2>Summary</h2>
-            <p>I'm a junior software developer with an insatiable curiosity and hunger for learning, a positive attitude, and a keen interest in Front-end. I've always found the most value in knowledge-sharing, and I enjoy solving problems and collaborating with a team to bring out the best from everyone and deliver outstanding solutions with a twist.<br></br><br></br>I'm quite a perfectionist and detail-oriented, a hard worker, and I like to feel proud of my craft. I will rely on my diverse skillset and recently acquired knowledge in software development to help my team achieve our  goals.</p>
+            <h2 className='section-header'>Summary:</h2>
+            <p style={{color: 'rgb(35, 29, 35)'}}>I'm a junior software developer with an insatiable curiosity & hunger for learning, a positive attitude, and a keen interest in Front-end. 
+            <br></br><br></br>I've always found the most value in knowledge-sharing, and I enjoy solving problems collaboratibly to bring out the best from everyone & deliver outstanding results with a twist.
+            <br></br><br></br>I'm quite detail-oriented and I like to feel proud of my craft. I will rely on my diverse skillset and recently acquired knowledge in software development to help my team achieve our  goals.</p>
 
-            <h2>My mindset</h2>
-            <h3>I.Love.Creating.Stuff</h3>
+            <h2 className='section-header'>My mindset:</h2>
+            <h3 id='i-love'>
+            <span className="i-letter">I.</span>
+            <span className="l-letter">L</span>
+            <span className="o-letter">O</span>
+            <span className="v-letter">V</span>
+            <span className="e-letter">E.</span>
+            <span className="c-letter">C</span>
+            <span className="r-letter">R</span>
+            <span className="e-letter">E</span>
+            <span className="a-letter">A</span>
+            <span className="t-letter">T</span>
+            <span className="i-letter">I</span>
+            <span className="n-letter">N</span>
+            <span className="g-letter">G.</span>
+            <span className="s-letter">S</span>
+            <span className="t-letter">T</span>
+            <span className="u-letter">U</span>
+            <span className="f1-letter">F</span>
+            <span className="f2-letter">F</span>
+            </h3>
 
-            <h4>Thinking back, on every role I've had I have always felt a similar craving - To be creative! <br></br>
-            Maybe that's why I've always got involved on more than it was expected from me. <br></br>
-            And that exposure could be the reason behind all the things I've learnt and the speed of it.
-                <br></br><br></br>
-                I really enjoy improving things, finding solutions, helping teams grow... I feel good when I'm adding value and I see a real impact from my efforts.
-                When I manage to make my team's life easier or to surprise my clients with nice additions they didn't expect THAT drives me.
-                <br></br><br></br>
-                Programming allows me to create not only for myself but for a wider audience. 
-                Hopefuly my small actions within the bigger team picture will make our users happier.
-                <br></br><br></br>
-                I'm a hardworker and I like to feel proud of my craft.
-                My software developer career is just starting, and this will me an incredible learning curve for me again. I can't wait.
+            <h4 style={{color:'rgb(35, 29, 35)'}}>
+                I'm driven by improving things, finding creative & innovative solutions, and keeping my clients excited about our partnership. 
+                Fortunately, programming allows me to do this! To create not only for myself but for a wider audience! 
+                Hopefuly, my small actions within the bigger team picture will make our users happier.
+                <br></br><br></br><br></br>
+                Every day, I challenge myself to get better than I was the day before.
+                I feel good when I'm adding value and I see a real impact from my efforts. 
+                <br></br><br></br><br></br>
+                My software developer career is just starting - what an incredible learning curve awaits!
 
             </h4>
             </div>
         </div>
+
+  
     </>
     );
 }

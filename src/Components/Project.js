@@ -4,7 +4,7 @@ import ProjectByIdPage from './ProjectByIdPage';
 import { Link } from 'react-router-dom';
 
 
-const Project = ({id, title, image, link, stack, nature, duration, goal, solution, features}) => {
+const Project = ({id, title, image, github_link, demo_link, stack, nature, duration, info, challenge, solution, features}) => {
 
     const [selectedProjectId, setSelectedProjectId] = useState(null)
 
