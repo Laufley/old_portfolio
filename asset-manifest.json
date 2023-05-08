@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a44e5400.css",
-    "main.js": "/portfolio/static/js/main.3fb4078b.js",
+    "main.css": "/portfolio/static/css/main.3d6681b3.css",
+    "main.js": "/portfolio/static/js/main.0b4f90ef.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/species.jpeg": "/portfolio/static/media/species.89ad224cf806a574204f.jpeg",
     "static/media/dnd_vault.jpeg": "/portfolio/static/media/dnd_vault.dfb307742183b81095be.jpeg",
@@ -12,12 +12,12 @@
     "static/media/headshoot.jpg": "/portfolio/static/media/headshoot.dee34425b47dfa981696.jpg",
     "static/media/goofy.jpeg": "/portfolio/static/media/goofy.3b52c0301771e6fc7286.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.a44e5400.css.map": "/portfolio/static/css/main.a44e5400.css.map",
-    "main.3fb4078b.js.map": "/portfolio/static/js/main.3fb4078b.js.map",
+    "main.3d6681b3.css.map": "/portfolio/static/css/main.3d6681b3.css.map",
+    "main.0b4f90ef.js.map": "/portfolio/static/js/main.0b4f90ef.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a44e5400.css",
-    "static/js/main.3fb4078b.js"
+    "static/css/main.3d6681b3.css",
+    "static/js/main.0b4f90ef.js"
   ]
 }
