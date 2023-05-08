@@ -66,6 +66,7 @@
 
 .personal-linkStyle:hover {
     color: whitesmoke;
+    color: rgb(26, 34, 71);
 }
 
 .sustainability-links {
@@ -84,7 +85,7 @@
 .duck-name{
     margin-left: 13rem;
     font-family: 'Acme', sans-serif;
-    font-size: 30px;
+    font-size: 60px;
     color: rgba(234, 234, 234, 0.454);
 }
 
