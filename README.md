@@ -1,5 +1,3 @@
-
-
 # dear dev: QUICK STEPS TO RUN THIS APP ON YOUR BROWSER
 
 ### 1. seed the db
