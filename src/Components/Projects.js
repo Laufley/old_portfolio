@@ -14,7 +14,7 @@ function Projects({projects}) {
             title={projectObj.title}
             image={projectObj.projectImg}
             github_link={projectObj.github_link}
-            demo_link={projectObj.demo_link}
+            demo={projectObj.demo_link}
             stack={projectObj.stack}
             nature={projectObj.nature}
             duration={projectObj.duration}

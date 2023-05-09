@@ -12,6 +12,7 @@ import dnd_vault from './Components/helpers/dnd_vault.jpeg'
 import species from './Components/helpers/species.jpeg'
 import marine_life from './Components/helpers/marine_life.jpeg'
 import children_of_the_bookcase from './Components/helpers/children_of_the_bookcase.jpeg'
+import kraken_demo_video from './Components/helpers/kraken_smol_demo.mp4'
 
 
 const animals = species
@@ -19,6 +20,7 @@ const monsters = monster_archives
 const vault = dnd_vault
 const marine = marine_life
 const game = children_of_the_bookcase
+const kraken_demo = kraken_demo_video
 
 function App() {
 
@@ -29,7 +31,7 @@ function App() {
         title: "Marine Life",
         projectImg: marine,
         github_link: "https://github.com/Laufley/Marine_Life_Group_Project",
-        demo_link: "https://Laufley.github.io/get_kraken",
+        demo: kraken_demo,
         stack: "JavaScript, React, NodeJS, MongoDB, HTML",
         nature: "team project",
         duration: "4 days",
@@ -43,7 +45,7 @@ function App() {
         title: "Monster archives",
         projectImg: monsters,
         github_link: "https://github.com/Laufley/DnD_monster_archives_app",
-        demo_link: "https://Laufley.github.io/monster_archives_app",
+        demo: "https://Laufley.github.io/monster_archives_app",
         stack: "JavaScript, React, HTML, CSS",
         nature: "individual project",
         duration: "3 days",

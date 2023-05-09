@@ -27,7 +27,7 @@ const ProjectByIdPage = ({ projects }) => {
             <p id='individual-solution'><b style={{color : '#00f0a8'}} >Solution:</b>&nbsp;{project.solution}</p>
             <p id='individual-feature'><b style={{color : '#00f0a8'}} >Features:</b>&nbsp;{project.features}</p>
             <a id='individual-github-link' href={project.github_link} style={{marginLeft:'20rem', fontSize:'1.7rem'}} >GitHub link</a>
-            <a id='individual-demo-link' href={project.demo_link} style={{marginLeft:'35rem', fontSize:'1.7rem'}} >Demo link</a>
+            <a id='individual-demo-link' href={project.demo} style={{marginLeft:'35rem', fontSize:'1.7rem'}} >Demo link</a>
         </div>
         </div>
     )}
