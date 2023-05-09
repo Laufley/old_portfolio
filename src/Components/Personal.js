@@ -85,15 +85,15 @@ const Personal = () => {
 
                 So here I am. Yet again, changing careers. But this time, with endless learning opportunities.<br></br>
                 Which is where I belong.
-                <p style= {{fontStyle: 'italic', textAlign: 'center', color: '#6fdfad'}} >"Some people struggle their whole life to find their meaningful path; luckily, it has taken me only a few stumbles"</p>
+                <p style= {{fontStyle: 'italic', textAlign: 'center', color: '#6fdfad'}} >"Some people struggle their whole life to find their meaningful career; luckily, it has taken me only a few tries"</p>
 
                 </Text>
             </section>
             <section>
                 <h2 className='psection-header'>Hobbies</h2>
                 <Text>
-                Life is too short it's quite humbling to think about all the things awaiting for us to discover.<br></br>
-                I want to learn as much as I can while I'm alive. That's why I have so many hobbies! 
+                Life is too short and it's quite humbling to think about all the things awaiting for us to discover.<br></br>
+                I want to learn as much as I can while I'm this planet. That's why I have so many hobbies! 
                 </Text>
                 <ul>
                     <Text>

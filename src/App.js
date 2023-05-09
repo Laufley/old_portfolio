@@ -42,7 +42,7 @@ function App() {
     {
         title: "D&D vault",
         projectImg: vault,
-        projectUrl: "https://github.com/Laufley/Personal_Project_DnD_Vault",
+        github_link: "https://github.com/Laufley/Personal_Project_DnD_Vault",
         stack: "Python, Flask, SQL HTML, CSS",
         nature: "individual project",
         duration: "6 days",
@@ -53,7 +53,7 @@ function App() {
     {
         title: "Monster archives",
         projectImg: monsters,
-        projectUrl: "https://github.com/Laufley/DnD_monster_archives_app",
+        github_link: "https://github.com/Laufley/DnD_monster_archives_app",
         stack: "JavaScript, React, HTML, CSS",
         nature: "individual project",
         duration: "3 days",
@@ -64,7 +64,7 @@ function App() {
     {
       title: "Game! - Children of the bookcase",
       projectImg: game,
-      projectUrl: "https://github.com/Laufley/Escape_Game",
+      github_link: "https://github.com/Laufley/Escape_Game",
       stack: "C#, Unity",
       nature: "team project",
       duration: "11 days",
@@ -75,7 +75,7 @@ function App() {
     {
         title: "Endangered Species",
         projectImg: animals,
-        projectUrl: "https://github.com/Laufley/Endangered_animals_DOM_hw_js",
+        github_link: "https://github.com/Laufley/Endangered_animals_DOM_hw_js",
         stack: "JavaScript, React, HTML, CSS",
         nature: "individual project",
         duration: "2 days",
