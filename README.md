@@ -12,14 +12,14 @@ terminal > cd into: <this_project>/client > write: `npm start`
 and Voila! You can now enjoy the app in your browser!
 Let us know what you think, and Good luck with the quizz!!
 
-----------------------------------------------------------------------
+--------------------------------------------------------------------
 Some credits for the beautiful song on the Kraken video:
 Little Adventures by Sokolovsky Music | http://sokolovskymusic.com
 Music promoted by https://www.free-stock-music.com
 Creative Commons / Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/
 
-----------------------------------------------------------------------
+--------------------------------------------------------------------
 
 
 # Getting Started with Create React App
