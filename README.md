@@ -1,3 +1,29 @@
+
+
+# dear dev: QUICK STEPS TO RUN THIS APP ON YOUR BROWSER
+
+### 1. seed the db
+terminal > cd into: <this_project>/server > write: `npm run seeds`
+
+### 2. start the server
+terminal > cd into: <this_project>/server > write: `npm run start server`
+
+### 3. start the client
+terminal > cd into: <this_project>/client > write: `npm start`
+
+and Voila! You can now enjoy the app in your browser!
+Let us know what you think, and Good luck with the quizz!!
+
+----------------------------------------------------------------------
+Some credits for the beautiful song on the Kraken video:
+Little Adventures by Sokolovsky Music | http://sokolovskymusic.com
+Music promoted by https://www.free-stock-music.com
+Creative Commons / Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+----------------------------------------------------------------------
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -9,6 +35,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
+cd into your client and
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
