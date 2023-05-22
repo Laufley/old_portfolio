@@ -37,7 +37,12 @@ const Button = styled.div`
     border-bottom: 2px solid rgb(238, 103, 238);
     border-right: 2px solid rgb(238, 103, 238);
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
-    }
+    };
+
+    @media (max-width: 768px) {
+        margin-bottom: 12%;
+        margin-left: 55%;
+      }
 `
 
 const Home = () =>{

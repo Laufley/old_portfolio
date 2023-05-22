@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { Link } from "react-router-dom"; 
 
 
@@ -80,11 +80,21 @@ transform: translateY(-1px);
 
 const Button1 = styled(Button)`
 margin-bottom: 15%;
+
+@media (max-width: 768px) {
+    margin-bottom: 10%;
+    margin-left: 30%;
+  }
 `
 
 const Button2 = styled(Button1)`
 margin-left: 2%;
 margin-bottom: 18%;
+
+@media (max-width: 768px) {
+    margin-bottom: 12%;
+    margin-left: 40%;
+  }
 `
 
 const LinkStyled = styled(Link)`
