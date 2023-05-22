@@ -137,3 +137,29 @@
 #individual-demo-link:hover{
     color: rgb(106, 157, 252);
 }
+
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+    #individual-title{
+        grid-area: individual-title;
+        color:rgb(249, 246, 246);
+        font-size: 45px;
+        justify-content: flex-start;
+        box-shadow: #5999E8;
+        margin-left: 8rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #individual-back {
+        grid-area: individual-back;
+        display: flex;
+        margin-left: 2 rem;
+        margin-top: 2%;
+        color:#393235;
+        font-size: 25px;
+        text-decoration: none;
+    }
+}

@@ -19,7 +19,7 @@
 #back {
     color: blueviolet;
     margin-right: 10%;
-    margin-top: 2%;
+    margin-top: 1.5%;
     font-size: 2rem;
 }
 #back:hover {
@@ -35,3 +35,14 @@
     gap: 10%;
     }
 }
+
+
+@media only screen and (max-width: 768px) {
+    #back {
+        color: blueviolet;
+        margin-right: 10%;
+        margin-top: 1.5%;
+        font-size: 2rem;
+    }
+}
+

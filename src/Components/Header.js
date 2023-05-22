@@ -39,7 +39,7 @@ align-items: center;
 justify-content: center;
 width: 60%;
 margin-left: 7.5%;
-margin-top: -6%;
+margin-top: 2%;
 width: 20%;
 gap: 5px;
 `
@@ -52,7 +52,7 @@ border-radius: 0%;
 margin-bottom: 12%;
 justify-content: center;
 width: max-content;
-height: 3em;
+height: 3rem;
 border-radius: 30em;
 padding: 1.3em 3em;
 font-size: 12px;
@@ -67,6 +67,7 @@ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 transition: all 0.3s ease 0s;
 cursor: pointer;
 outline: none;
+
 &:hover {
 background-color: #23c483;
 box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
@@ -80,6 +81,7 @@ transform: translateY(-1px);
 
 const Button1 = styled(Button)`
 margin-bottom: 15%;
+margin-left: 20%;
 
 @media (max-width: 768px) {
     margin-bottom: 10%;
@@ -87,9 +89,9 @@ margin-bottom: 15%;
   }
 `
 
-const Button2 = styled(Button1)`
-margin-left: 2%;
-margin-bottom: 18%;
+const Button2 = styled(Button)`
+margin-left: 40%;
+margin-bottom: 19%;
 
 @media (max-width: 768px) {
     margin-bottom: 12%;
