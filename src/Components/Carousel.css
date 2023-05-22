@@ -6,6 +6,7 @@
     overflow: hidden;
     width: 100%;
     scroll-behavior: smooth;
+    margin-top: 50px;
 }
 
 #first-item {
@@ -21,6 +22,7 @@
     display: flex;
     grid-area: second-item;
     grid-column: 2/2;
+    margin-left: 55px;
     cursor: default;
     pointer-events: none;
 
@@ -63,7 +65,7 @@
 
 #button-next {
     right: 0;
-    margin-right: 2%;
+    margin-right: 20%;
     padding-left: 2%;
     padding-right: 1.5%;
 }
