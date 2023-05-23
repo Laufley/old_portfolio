@@ -20,6 +20,11 @@ align-items: center;
 background: linear-gradient(45deg, #ffffff,#f87171, #de3274, #ba5ee2, #4e9aec, #67e2b5, #40eeb7);
 background-size: contain;
 height: 100%;
+
+@media (max-width: 393px) {
+  height: 100%;
+  width: 142%;
+}
 `
 
 const Title = styled.h1`
@@ -34,6 +39,13 @@ margin-top: 2%;
   width: 20%;
   margin-bottom: 2%;
   margin-left: -3%;
+}
+
+@media (max-width: 393px) {
+  width: 10%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  margin-top: 2%;
 }
 `
 
@@ -54,6 +66,16 @@ gap: 5px;
   margin-bottom: 3%;
   margin-left: 13%;
 }
+
+@media (max-width: 393px) {
+  width: 20%;
+  margin-bottom: 3%;
+  margin-left: 28%;
+  gap: 40px;
+  margin-top: -5%;
+}
+
+
 `
 
 const Button= styled.button`
@@ -94,6 +116,11 @@ transform: translateY(-1px);
   width: 20%;
   margin-bottom: 2%;
   margin-left: 17%;
+}
+
+@media (max-width: 393px) {
+  width: 100%;
+  margin-bottom: 2%;
 }
 `
 
