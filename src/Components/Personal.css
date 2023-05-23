@@ -145,14 +145,6 @@
         transform: rotate(8deg);
     }
 
-    #personal-main {
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-        padding: 5%;
-        background-color: rgba(255, 0, 0, 0);
-        margin-bottom: 23rem;
-    }
-
     #personal-details {
         display: flex;
         list-style: none;
@@ -162,6 +154,13 @@
         margin-right: -3rem;
     }
 
+    #personal-main {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        padding: 5%;
+        background-color: rgba(255, 0, 0, 0);
+        margin-bottom: 23rem;
+    }
     #personal-intro {
         display: flex;
         grid-area: Intro;
@@ -185,4 +184,46 @@
 }
 
 @media only screen and (max-width: 414px) {
+
+    #personal-intro {
+        margin-left: 10px;
+        text-align: center;
+        width: 87%;
+    }
+
+    .psection-header{
+        color: rgba(240, 248, 255, 0.892);
+        margin-top: 2px;
+    }
+
+    #personal-content {
+
+        display: flex;
+        grid-area: Content;
+        margin-top: 12%;
+        grid-template-columns: 1fr; 
+        flex-direction: column;
+        margin-left: 4%;
+    }
+
+
+    #personal-picture {
+        margin-bottom: -60rem;
+        border: 1px solid rgba(255, 255, 255, 0.79);
+        width: 175px;
+        height: 230px;
+        background-color: white;
+        transform: rotate(8deg);
+    }
+
+    #Aside {
+        float: right;
+        position: relative;
+        margin-right: 20%;
+        margin-top: -1%;
+        height: 20px;
+    }
+
+    
+     
 }
