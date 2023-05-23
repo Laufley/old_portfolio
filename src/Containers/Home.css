@@ -207,16 +207,24 @@ margin-top: 20%;
 @media only screen and (max-width: 414px) {
 
     #Intro{
-        margin-left: -10px;
+        margin-left: -30px;
         text-align: center;
         width: 120%;
     }
 
+    #Aside {
+        float: right;
+        position: relative;
+        margin-right: 20%;
+        margin-top: -1%;
+        height: 20px;
+    }
+
     #profilePicture {
-        margin-top: 16rem;
+        margin-bottom: -60rem;
         border: 1px solid rgba(255, 255, 255, 0.79);
-        width: 180px;
-        height: 210;
+        width: 175px;
+        height: 230px;
         background-color: white;
         transform: rotate(8deg);
     }
@@ -226,13 +234,13 @@ margin-top: 20%;
         list-style: none;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 3rem;  /* top is the bottom of the picture*/
+        margin-top: 32rem;  /* top is the bottom of the picture*/
         margin-right: 8px;
     }
 
 
     .LinkStyle {
-        /* margin: 10px; */
+        margin: 10px;
         text-decoration: none;
         font-size: 1.2rem;
         color: rgb(50, 47, 50);
@@ -246,8 +254,9 @@ margin-top: 20%;
         flex-direction: column;
         margin-left: 4%;
         text-align: justify;
-        width: 110%;
+        width: 90%;
         height: 87%;
+        position: relative;
     }
     #i-love{
         margin-left: 12px;

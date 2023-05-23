@@ -119,6 +119,7 @@ transform: translateY(-1px);
 @media (max-width: 414px) {
   width: 100%;
   margin-bottom: 2%;
+  
 }
 `
 
