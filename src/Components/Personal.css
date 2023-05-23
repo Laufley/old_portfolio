@@ -195,6 +195,8 @@
         margin-left: 10px;
         text-align: center;
         width: 87%;
+        margin-bottom: 90%;
+        z-index: -20;
     }
 
     .psection-header{
@@ -204,31 +206,24 @@
         height: -2px;
     }
 
-    #personal-content {
-
-        display: flex;
-        grid-area: Content;
-        margin-top: 12%;
-        grid-template-columns: 1fr; 
-        flex-direction: column;
-        margin-left: 4%;
-    }
+    
     #personal-aside {
         float: right;
         position: relative;
-        margin-right: 20%;
+        margin-right: 4%;
         /* margin-top: 21.5rem; */
-        height: 10px;
+        z-index: 30;
+        width: 100%;
     }
 
     #personal-picture {
-        margin-bottom: -56rem;
-        margin-left: 370px;
-        border: 0.05px solid rgba(255, 255, 255, 0.79);
-        width: 100px;
-        height: 130px;
+        margin-bottom: -60rem;
+        border: 1px solid rgba(255, 255, 255, 0.79);
+        width: 175px;
+        height: 230px;
         background-color: white;
         transform: rotate(8deg);
+        margin-left:30%;
     }
 
     #personal-details {
@@ -236,18 +231,23 @@
         list-style: none;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 26rem;
-        margin-left: 110px;
-        margin-right: 0px;
+        margin-top: 32rem;
+        margin-left: 15%;
+        margin-right: 4px;
+        height: 10%;
+        z-index: -3;
     }
-    #personal-main {
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-        padding: 5%;
-        background-color: rgba(255, 0, 0, 0);
-        margin-bottom: 23rem;
-        z-index: -20;
-    }
-    
+
+  #personal-main {
+    text-align: justify;
+    margin-bottom: 35%;
+  }
+
+  .duck-name{
+    margin-left: 2%;
+    font-family: 'Acme', sans-serif;
+    font-size: 60px;
+    color: rgba(234, 234, 234, 0.454);
+}
      
 }

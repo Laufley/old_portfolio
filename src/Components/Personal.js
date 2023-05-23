@@ -72,7 +72,7 @@ const Personal = () => {
                 
                 After 4 years of exposure to all kind of challenges in different companies, I became a <b>senior IT recruiter</b> at <i> Smart Hire IT Nordics</i>.<br></br>
 
-                <p style={{ fontStyle: 'italic', color: '#6fdfad', textAlign: 'center'}}>"I want a company that nurtures connections, is quirky, and spends the right amount of time on each individual profile. I want our company to be different!" - <b>Indira 2021.</b></p>
+                <p style={{ fontStyle: 'italic', color: 'white', textAlign: 'center'}}>"I want a company that nurtures connections, is quirky, and spends the right amount of time on each individual profile. I want our company to be different!" - <b>Indira 2021.</b></p>
                 Since everyone on the startup had the same vision we drove success while wholeheartedly enjoying what we did, and almost without noticing, I kept taking more responsabilities than what was expected of me because I believed in the difference we were making and I wanted to improve the way we did it. So, over the years, I have: <p style={{fontStyle : 'italic', color: 'rgba(26, 34, 71)'}} > Studied the IT market, delivered influencial market insights to my clients, became account manager of multiple accounts in EU, coached candidates, helped people to take their next career step, improved operations and innovated in the company with new approaches that are still being used, led projects, delivered trainings, delivered a social media audit to the CEO, joined forces with the CEO and together we created: a new logo, rebranded the whole company, and created the most flashy website (thanks to the help of a developer); and represented our company on big tech events in Stockholm</p>
             
                 Undoubtedly, <i>Smart Hire IT Nordics</i> has been my growing pot and free canvass. And I couldn't be more grateful for that. They noticed I really craved something yet I didn't know what it was, and they gave me the freedom to pursue it. In the back of my mind, for almost those entire 4 years, I kept toying with the idea of becoming a programmer and unravel all that "magic" my candidates amazed me with, dreaming about being able to create websites and all kinds of stuff. It sounded so exciting! So strage! So full of possibilities!<br></br>An endless ocean of knowledge-beads! <br></br><br></br>
@@ -85,7 +85,7 @@ const Personal = () => {
 
                 So here I am. Yet again, changing careers. But this time, with endless learning opportunities.<br></br>
                 Which is where I belong.
-                <p style= {{fontStyle: 'italic', textAlign: 'center', color: '#6fdfad'}} >"Some people struggle their whole life to find their meaningful career; luckily, it has taken me only a few tries"</p>
+                <p style= {{fontStyle: 'italic', textAlign: 'center', color: 'white'}} >"Some people struggle their whole life to find their meaningful career; luckily, it has taken me only a few tries"</p>
 
                 </Text>
             </section>

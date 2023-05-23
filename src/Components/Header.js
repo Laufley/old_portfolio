@@ -23,7 +23,7 @@ height: 100%;
 
 @media (max-width: 414px) {
   height: 100%;
-  width: 142%;
+  width: 100%;
 }
 `
 
@@ -70,7 +70,7 @@ gap: 5px;
 @media (max-width: 414px) {
   width: 20%;
   margin-bottom: 3%;
-  margin-left: 15%;
+  margin-left: 25%;
   gap: 20px;
   margin-top: -5%;
 }
