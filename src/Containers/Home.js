@@ -31,6 +31,7 @@ const Button = styled.div`
     border-bottom,
     border-right,
     box-shadow;
+    
     &:hover {
     border-top: 2px solid blueviolet;
     border-left: 2px solid blueviolet;

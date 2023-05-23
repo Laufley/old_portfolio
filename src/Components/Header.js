@@ -29,6 +29,12 @@ font-size: 4em;
 color: #fff; 
 padding: 1em;
 margin-top: 2%;
+
+@media (max-width: 768px) {
+  width: 20%;
+  margin-bottom: 2%;
+  margin-left: -3%;
+}
 `
 
 const ButtonsWrapper = styled.div`
@@ -42,6 +48,12 @@ margin-left: 7.5%;
 margin-top: 2%;
 width: 20%;
 gap: 5px;
+
+@media (max-width: 820px) {
+  width: 20%;
+  margin-bottom: 3%;
+  margin-left: 13%;
+}
 `
 
 const Button= styled.button`
@@ -77,21 +89,32 @@ transform: translateY(-7px);
 &:active {
 transform: translateY(-1px);
 }
+
+@media (max-width: 768px) {
+  width: 20%;
+  margin-bottom: 2%;
+  margin-left: 17%;
+}
 `
 
 const Button1 = styled(Button)`
-margin-bottom: 15%;
-margin-left: 20%;
+margin-bottom: 20%;
+margin-left: 15%;
 
 @media (max-width: 768px) {
     margin-bottom: 10%;
     margin-left: 30%;
   }
+
+@media (max-width: 432px) {
+  margin-bottom: 10%;
+  margin-left: 30%;
+}
 `
 
 const Button2 = styled(Button)`
-margin-left: 40%;
-margin-bottom: 19%;
+margin-left: 30%;
+margin-bottom: 25%;
 
 @media (max-width: 768px) {
     margin-bottom: 12%;
