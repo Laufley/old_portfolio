@@ -61,7 +61,7 @@ float: right;
 position: sticky;
 /* top: 4; */
 margin-right: 10%;
-/* margin-top: -20%; */
+margin-top: -20%;
 }
 
 #Details {
@@ -182,7 +182,7 @@ margin-top: 20%;
         float: right;
         position: relative;
         top: 0;
-        margin-right: 20%;
+        margin-right: 10%;
         margin-top: -20%;
     }
 

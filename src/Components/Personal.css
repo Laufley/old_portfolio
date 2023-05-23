@@ -30,7 +30,7 @@
 }
 
 
-#Aside {
+#personal-aside {
     float: right;
     /* position: sticky; */
     top: 0;
@@ -144,14 +144,20 @@
         background-color: white;
         transform: rotate(8deg);
     }
-
+    #personal-aside {
+        float: right;
+        position: relative;
+        margin-right: 4.2%;
+        /* margin-top: 21.5rem; */
+        height: 10px;
+    }
     #personal-details {
         display: flex;
         list-style: none;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 2%;
-        margin-right: -3rem;
+        margin-top: 1.7%; /* top is the bottom of the picture*/
+        margin-left: 0rem;
     }
 
     #personal-main {
@@ -194,6 +200,8 @@
     .psection-header{
         color: rgba(240, 248, 255, 0.892);
         margin-top: 2px;
+        z-index: -20;
+        height: -2px;
     }
 
     #personal-content {
@@ -205,25 +213,41 @@
         flex-direction: column;
         margin-left: 4%;
     }
-
+    #personal-aside {
+        float: right;
+        position: relative;
+        margin-right: 20%;
+        /* margin-top: 21.5rem; */
+        height: 10px;
+    }
 
     #personal-picture {
-        margin-bottom: -60rem;
-        border: 1px solid rgba(255, 255, 255, 0.79);
-        width: 175px;
-        height: 230px;
+        margin-bottom: -56rem;
+        margin-left: 370px;
+        border: 0.05px solid rgba(255, 255, 255, 0.79);
+        width: 100px;
+        height: 130px;
         background-color: white;
         transform: rotate(8deg);
     }
 
-    #Aside {
-        float: right;
-        position: relative;
-        margin-right: 20%;
-        margin-top: -1%;
-        height: 20px;
+    #personal-details {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 26rem;
+        margin-left: 110px;
+        margin-right: 0px;
     }
-
+    #personal-main {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        padding: 5%;
+        background-color: rgba(255, 0, 0, 0);
+        margin-bottom: 23rem;
+        z-index: -20;
+    }
     
      
 }

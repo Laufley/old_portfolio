@@ -33,7 +33,7 @@ const Personal = () => {
         <div>
         <Header route={route} setRoute={setRoute} />
         {route === '/personal' && <div>
-        <div id='Aside'>
+        <div id='personal-aside'>
             <img id='personal-picture' src={personalImg}></img>
             <div id='personal-details'> 
                     <Link className='personal-linkStyle' to='/CV'> <i className="fa">&#xf12e;</i> Résumé </Link>

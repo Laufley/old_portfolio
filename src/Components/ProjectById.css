@@ -49,6 +49,7 @@
     margin-top: 7rem;
     padding: 2rem;
     font-size: 18px;
+    
 }
 
 #individual-img{
@@ -173,13 +174,24 @@
         border-radius: 1rem;
         display: grid;
         grid-template-rows:
-            [individual-img individual-img] auto [individual-stack individual-stack] auto [individual-nature individual-nature] auto [individual-duration individual-duration] auto [individual-info individual-info] auto [individual-challenge individual-challenge] auto [individual-solution individual-solution] auto [individual-feature individual-feature] auto [individual-link individual-demo-link] auto;
+            [individual-img individual-img] auto 
+            [individual-stack individual-stack] auto 
+            [individual-nature individual-nature] auto 
+            [individual-duration individual-duration] auto 
+            [individual-info individual-info] auto 
+            [individual-challenge individual-challenge] auto 
+            [individual-solution individual-solution] auto 
+            [individual-feature individual-feature] auto 
+            [individual-link individual-demo-link] auto;
         width: 84.5%;
         margin-left: 1.6rem;
         margin-top: 7rem;
         padding: 2rem;
         font-size: 18px;
+        max-height: max-content;
+        margin-bottom: 60%;
     }
+
 
     #individual-img {
         display: flex;
@@ -192,8 +204,57 @@
         box-shadow: 5px 4px #2c2c2d;
     }
 
+    #individual-stack{
+        margin-top: 5%;
+        display: flex;
+        color: aliceblue;
+        grid-area: individual-stack;
+    }
+
+    #individual-nature {
+        margin-top: 5%;
+        display: flex;
+        color: aliceblue;
+        grid-area: individual-nature;
+    }
+    
+    #individual-duration{
+        margin-top: 5%;
+        display: flex;
+        color: aliceblue;
+        grid-area: individual-duration;
+    }
+    
+    #individual-info{
+        margin-top: 5%;
+        display: flex;
+        color: aliceblue;
+        grid-area: individual-info;
+    }
+
+    #individual-challenge{
+        margin-top: 5%;
+        display: flex;
+        color: aliceblue;
+        grid-area: individual-challenge;
+    }
+    
+    #individual-solution{
+        margin-top: 5%;
+        display: flex;
+        color: aliceblue;
+        grid-area: individual-solution;
+    }
+    
+    #individual-feature {
+        margin-top: 5%;
+        display: flex;
+        color: aliceblue;
+        grid-area: individual-feature;
+    }
+
     #individual-github-link {
-        margin-top: 2.5rem;
+        margin-top: 5%;
         display: flex;
         grid-area: individual-link;
         font-family: 'Sigmar', cursive;
@@ -204,7 +265,7 @@
     }
 
     #individual-demo-link {
-        margin-top: 2.4rem;
+        margin-top: 5%;
         margin-left: 22rem;
         display: flex;
         grid-area: individual-demo-link;
@@ -212,4 +273,5 @@
         color: rgb(252, 201, 106);
         font-size: 1.7rem;
     }
+    
 }
