@@ -16,7 +16,7 @@ body {
       background-position: 0% 50%;
     }
   }
-
+/* 
   @media only screen and (max-width: 820px) {
     body {
       background: repeating-linear-gradient(45deg, #ffffff,#f87171, #ba5ee2, #4e9aec, #67e2b5, #40eeb7);
@@ -24,14 +24,10 @@ body {
       animation: gradient 20s ease infinite;
       height:fit-content;
     }
-  }
+  } */
 
-  @media only screen and (orientation: landscape) {
-    body{
-      width: 100%;
-    }
-    
-  }
+ 
+  
 
   /* #de3274, */
 
