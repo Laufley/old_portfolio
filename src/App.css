@@ -26,6 +26,13 @@ body {
     }
   }
 
+  @media only screen and (orientation: landscape) {
+    body{
+      width: 100%;
+    }
+    
+  }
+
   /* #de3274, */
 
 
