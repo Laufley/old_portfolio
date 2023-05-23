@@ -166,6 +166,7 @@ margin-top: 20%;
         grid-template-rows: repeat(2, auto);
         padding: 5%;
         background-color: rgba(255, 0, 0, 0);
+        margin-bottom: 25rem;
     }
 
     #Details {
@@ -199,6 +200,7 @@ margin-top: 20%;
         grid-template-columns: 1fr;
         flex-direction: column;
         margin-left: 4%;
+        
     }
 }
 
