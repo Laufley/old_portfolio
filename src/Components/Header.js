@@ -21,7 +21,7 @@ background: linear-gradient(45deg, #ffffff,#f87171, #de3274, #ba5ee2, #4e9aec, #
 background-size: contain;
 height: 100%;
 
-@media (max-width: 393px) {
+@media (max-width: 414px) {
   height: 100%;
   width: 142%;
 }
@@ -41,7 +41,7 @@ margin-top: 2%;
   margin-left: -3%;
 }
 
-@media (max-width: 393px) {
+@media (max-width: 414px) {
   width: 10%;
   margin-bottom: 3%;
   margin-left: 3%;
@@ -67,15 +67,13 @@ gap: 5px;
   margin-left: 13%;
 }
 
-@media (max-width: 393px) {
+@media (max-width: 414px) {
   width: 20%;
   margin-bottom: 3%;
-  margin-left: 28%;
-  gap: 40px;
+  margin-left: 15%;
+  gap: 20px;
   margin-top: -5%;
 }
-
-
 `
 
 const Button= styled.button`
@@ -118,7 +116,7 @@ transform: translateY(-1px);
   margin-left: 17%;
 }
 
-@media (max-width: 393px) {
+@media (max-width: 414px) {
   width: 100%;
   margin-bottom: 2%;
 }
@@ -133,7 +131,7 @@ margin-left: 15%;
     margin-left: 30%;
   }
 
-@media (max-width: 432px) {
+@media (max-width: 414px) {
   margin-bottom: 10%;
   margin-left: 30%;
 }

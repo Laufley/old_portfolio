@@ -204,29 +204,21 @@ margin-top: 20%;
 
 /* media query for mobile */
 
-@media only screen and (max-width: 432px) {
+@media only screen and (max-width: 414px) {
 
     #Intro{
-        margin-top: -2%;
+        margin-left: -10px;
         text-align: center;
         width: 120%;
     }
 
     #profilePicture {
-        margin-top: 15rem;
-        margin-left: 6rem;
+        margin-top: 16rem;
         border: 1px solid rgba(255, 255, 255, 0.79);
         width: 180px;
         height: 210;
         background-color: white;
         transform: rotate(8deg);
-    }
-  
-    #Main {
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-        padding: 5%;
-        background-color: rgba(255, 0, 0, 0);
     }
 
     #Details {
@@ -234,20 +226,16 @@ margin-top: 20%;
         list-style: none;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 15%;
+        margin-top: 3rem;  /* top is the bottom of the picture*/
+        margin-right: 8px;
     }
 
-    #Aside {
-        float: right;
-        position: relative;
-    }
 
     .LinkStyle {
-        margin: 10px;
+        /* margin: 10px; */
         text-decoration: none;
         font-size: 1.2rem;
         color: rgb(50, 47, 50);
-        margin-right: -20px;
     }
 
     #Content {
@@ -258,10 +246,11 @@ margin-top: 20%;
         flex-direction: column;
         margin-left: 4%;
         text-align: justify;
-        width: 120%;
+        width: 110%;
+        height: 87%;
     }
     #i-love{
-        margin-left: 6rem;
+        margin-left: 12px;
         font-family: 'Acme', sans-serif;
         font-size: 30px;
         color: rgba(234, 234, 234, 0.454);

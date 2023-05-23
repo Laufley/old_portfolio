@@ -45,9 +45,9 @@ const Button = styled.div`
         margin-left: 55%;
       }
 
-      @media (max-width: 393px) {
+      @media (max-width: 414px) {
         margin-bottom: 12%;
-        margin-left: 35%;
+        margin-left: 20%;
       }
 `
 
