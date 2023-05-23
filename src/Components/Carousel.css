@@ -104,3 +104,41 @@ cursor: pointer;
     }
 }
 
+@media only screen and (max-width: 414px) {
+
+    #carousel-view {
+        display: grid;
+        grid-template-columns: repeat
+        ('first-item, second-item');
+        gap: 1rem;
+        overflow: hidden;
+        width: 100%;
+        scroll-behavior: smooth;
+        margin-top: 10px;
+        margin-bottom: 25%;
+    }
+
+
+    #first-item {
+        display: flex;
+        grid-area: first-item;
+        grid-column: 1/2;
+        margin-left: 0.5rem;
+        width: 50%;
+    }
+
+    .button {
+        margin-top: 76%;
+
+    }
+
+    #button-previous {
+        margin-left: 2%;
+    }
+
+    #button-next {
+        margin-right: 1.5%;
+    }
+   
+}
+
