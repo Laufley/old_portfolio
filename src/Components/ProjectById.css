@@ -402,29 +402,30 @@
         }
     
         #individual-github-link {
-            margin-top: 5%;
+    
             display: flex;
             grid-area: individual-link;
             font-family: 'Sigmar', cursive;
-            /* color: rgb(224, 247, 246); */
-            color: rgb(42, 34, 43);
-            margin-left: 20%;
             font-size: 1.7rem;
-            z-index: 30;
-         
-
+            color: rgb(42, 34, 43);
+            z-index: 20;
+            margin-left: 10%;
+            width: 10px;
+            height: 40%;
+            
         }
     
         #individual-demo-link {
-            z-index: 20;
-            margin-top: 25%;
-            margin-left: 24%;
             display: flex;
             grid-area: individual-demo-link;
             font-family: 'Sigmar', cursive;
-            color: rgb(252, 201, 106);
             font-size: 1.7rem;
-            text-align: justify;
+            color: rgb(252, 201, 106);
+            z-index: 20;
+            margin-left: 65%;
+            width: 10px;
+            height: 40%;
+       
         }
         
 }
