@@ -54,22 +54,24 @@ color: #4F0080;
     background-color: white;
     vertical-align: middle;
     transform: rotate(8deg);
+    
 }
 
 #Aside {
-float: right;
-position: sticky;
-/* top: 4; */
-margin-right: 10%;
-margin-top: -20%;
+    float: right;
+    position: sticky;
+    top: 0;
+    margin-right: 10%;
+    margin-top: -20%;
+
 }
 
 #Details {
-display: flex;
-list-style: none;
-flex-direction: row;
-justify-content: space-between;
-margin-top: 20%;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20%;
 }
 
 
