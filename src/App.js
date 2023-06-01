@@ -13,6 +13,7 @@ import species from './Components/helpers/species.jpeg'
 import marine_life from './Components/helpers/marine_life.jpeg'
 import children_of_the_bookcase from './Components/helpers/children_of_the_bookcase.jpeg'
 import kraken_demo_video from './Components/helpers/kraken_smol_demo.mp4'
+import ttrpg_website_with_crm_demo from './Components/helpers/ttrpg_website_with_crm_demo.mp4'
 
 
 const animals = species
@@ -21,6 +22,7 @@ const vault = dnd_vault
 const marine = marine_life
 const game = children_of_the_bookcase
 const kraken_demo = kraken_demo_video
+const ttrpg_website_demo= ttrpg_website_with_crm_demo
 
 function App() {
 
@@ -57,6 +59,7 @@ function App() {
       title: "D&D vault",
       projectImg: vault,
       github_link: "https://github.com/Laufley/Personal_Project_DnD_Vault",
+      demo: ttrpg_website_demo,
       stack: "Python, Flask, SQL HTML, CSS",
       nature: "individual project",
       duration: "6 days",
