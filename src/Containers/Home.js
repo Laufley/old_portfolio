@@ -70,30 +70,39 @@ const Home = () =>{
             <div id='Intro'><h1>I am a software developer passionate about my craft </h1></div>
             <div id='Content'>
             <h2 className='section-header'><b>Languages:</b></h2>
-            <h4>JavaScript</h4>
-                <p style={{color: 'rgb(35, 29, 35)'}}>I have worked alone and in a team over several projects, both in front-end and back-end using React, Node.js, HTML, and CSS.
-                <br></br>
-                <br></br>
-                All throughout my career I've always been focused on my end users; fascinated by how to grab their attention and by tailoring their experience with eye-catching and meaningful material.<br></br> 
-                This may be why — even when I appreciate back-end logic — I do prefer front-end and <br></br> event-driven development more than any other kind. I can't get enough of it!
-                    
-                </p>
-            <h4>Python</h4>
-                <p style={{color: 'rgb(35, 29, 35)'}}> Great and versatile language, no wonder it's so widely used. I do appreciate the fact that is not dynamically typed compared to JS - the many typos I could have avoided!
-                <br></br>
-                <br></br>
-                I do enjoy Python as well, And I have worked alone and collaborated with others to create apps using Flask, SQL, HTML, CSS.
-                </p>
-            <h4>Java</h4>
-                <p style={{color: 'rgb(35, 29, 35)'}}> Working with Java was a great experience, even more so when debbuging. I have never enjoyed debbuging so much before.
-                <br></br>
-                <br></br>
-                I have worked on Java projects by myself and in a team building apps with Spring.
-                </p>
-            <h4>C#</h4>
-                <p style={{color: 'rgb(35, 29, 35)'}}> I took it upon myself to learn bits and bobs of C# & Unity engine. Just enough to build a small game for fun. Afterall, you never know if you like something until you've tried it.</p>
-            
-            
+                <h3 class='main-or-other-language'style={{color: 'rgb(175,217,195)'}}> <b> <u> Main ones </u> </b> </h3>
+                    <h4 class='main-or-other-language'><b> 1. JavaScript </b></h4>
+                            <p class='main-or-other-language' style={{color: 'rgb(35, 29, 35)'}}>I have worked alone and in a team over several projects, both in front-end and back-end using 
+                            <br></br>
+                            <b>React, Node.js, HTML, and CSS.</b>
+                            <br></br>
+                            <br></br>
+                            All throughout my career I've always been focused on my end users; focused on tailoring their experience with eye-catching and meaningful material.<br></br> 
+                            This may be why — even when I appreciate back-end logic — I do prefer event driven development more than any other kind. I can't get enough of it!
+                            </p>
+                        <h4 class='main-or-other-language'>2. Python</h4>
+                            <p class='main-or-other-language' style={{color: 'rgb(35, 29, 35)'}}> Great and versatile language, no wonder it's so widely used.
+                            <br></br>
+                            <br></br>
+                            I do enjoy Python as well, And I have worked alone and collaborated with others to create webapps using 
+                            <br></br>
+                            <b>Flask, SQL, HTML, CSS.</b>
+                            </p>
+                <h3 class='main-or-other-language' style={{color: 'rgb(175,217,195)'}}> <b> <u> Others </u> </b> </h3>
+                    <h4 class='main-or-other-language'>1. Java</h4>
+                        <p class='main-or-other-language' style={{color: 'rgb(35, 29, 35)'}}> The thing I have enjoyed the most with Java has been debugging.
+                        <br></br>
+                        <br></br>
+                        I have worked on Java projects mostly by myself building apps with <b>Spring.</b>
+                        </p>
+                    <h4 class='main-or-other-language'>2. C#</h4>
+                        <p  class='main-or-other-language'style={{color: 'rgb(35, 29, 35)'}}> As a team of 4 we built a small game in C# with Unity engine for fun.</p>
+                    <h4 class='main-or-other-language'>3. PHP</h4>
+                        <p  class='main-or-other-language' style={{color: 'rgb(35, 29, 35)'}}> Currently working on a <u>paid project</u> with PHP, JS, HTML, CSS and Worpress to add a whislist feature on an e-commerce website.
+                        <br></br>
+                        <br></br>
+                        
+                    </p>
             <h2 className='section-header'>Databases:</h2>
             <p style={{color: 'rgb(35, 29, 35)'}}> SQL, MongoDB</p>
             
@@ -104,23 +113,24 @@ const Home = () =>{
                 Unittest, Pytest, Mocha, Cypress.
             </p>
 
-
-            <h2 className='section-header'>Soft Skills:</h2>
-                <ul style={{color: 'rgb(35, 29, 35)'}}>
-                <li><b>curious & constantly learning something new</b></li>
-                <li><b>resilient & self-driven</b></li>
-                <li><b>committed</b></li>
-                <li><b>creative</b></li>
-                <li><b>teamworker & solo worker</b></li>
-                <li><b>adaptable</b></li>
-                <li><b>used to tight deadlines and fast-paced environments</b></li>
-                <li><b>good communication Skills</b></li>
-                <li><b>good Organising, Planning and Project Management skills</b></li>
-                <li><b>psychology and diplomacy</b></li>
-                <li><b>leadership, mentoring and training</b></li>
-                <li><b>experience nurturing client relationships</b></li>
-            </ul>
-
+            
+          
+                <h2 className="section-header">Soft Skills:</h2>
+                <ul>
+                    <li><b>Highly adaptable</b></li>
+                    <li><b>Resilient</b></li>
+                    <li><b>Enthusiastic</b></li>
+                    <br></br>
+                    <li>Curious</li>
+                    <li>Self-driven</li>
+                    <li>Psychology</li>
+                    <li>Effective communication</li>
+                    <li>Understanding of team dynamics</li>
+                    <li>Used to tight deadlines & fast-paced environments</li>
+                    <li>Organising, Planning & Project Management</li>
+                    <li>Mentoring</li>
+                    <li>Client relationships handling</li>
+                </ul>
 
             <h2 className='section-header'>Summary:</h2>
             <p style={{color: 'rgb(35, 29, 35)'}}>I'm a junior software developer with an insatiable curiosity & hunger for learning, a positive attitude, and a keen interest in Front-end. 
