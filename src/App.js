@@ -68,14 +68,15 @@ function App() {
       features: "The website contains 7 sections: Home, Dungeon Masters, Upcoming events, Tips and Guides, About, Contact Us, and the Management section. Ulf's customers can navigate through the pages and interact with them to gather the information they need, whilst Only needs to access to the Management page by login to do all the admin. There, he can go to Sessions or Players and perform all CRUD actions. My user, as a manager, can also add images to the sessions he updates or adds, and those images as well ass the information of the current sessions will display in the public section of his page. Finally, my user is able to see how many people are booked in for each session/campaign, and the system won't allow him to book a slot if the session is already full.",
   },
     {
-      title: "Game! - Children of the bookcase",
+      title: "A Game!",
       projectImg: game,
       github_link: "https://github.com/Laufley/Escape_Game",
+      demo: "https://play.unity.com/mg/other/children-of-the-bookcase",
       stack: "C#, Unity",
       nature: "team project",
       duration: "11 days",
-      info: "To challenge ourselves greatly in a short period of time: learning enough of a new language & a game engine to deliver what we aimed for, to push our limits, and to create a game which sounds very exciting!",
-      solution: "Children of the Bookcase is a 3D, escape-room style, detective puzzle game. Built by us - namelessGamesInc. Published & ready to play in unity store under this link: https://play.unity.com/mg/other/children-of-the-bookcase .",
+      info: "Big challenge: learning enough of a new language & a game engine to create a game!",
+      solution: "Children of the Bookcase is a 3D, escape-room style, detective puzzle game. Built by us - namelessGamesInc. Published & ready to play in unity store",
       features: "First person 3D graphics, puzzles, music, animations, menu scene, credits scene, (some) own assets, and other cool surprises!"
     },
     {
