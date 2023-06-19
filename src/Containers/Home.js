@@ -104,13 +104,13 @@ const Home = () =>{
                         
                     </p>
             <h2 className='section-header'>Databases:</h2>
-            <p style={{color: 'rgb(35, 29, 35)'}}> SQL, MongoDB</p>
+            <p style={{color: 'rgb(35, 29, 35)'}}> <b>SQL, MongoDB </b></p>
             
             
             <h2 className='section-header'>Testing tools:</h2>
             <p style={{color: 'rgb(35, 29, 35)'}}>Experience with unit testing, integration testing, and systems testing.
                 <br></br>
-                Unittest, Pytest, Mocha, Cypress.
+                <b>Unittest, Pytest, Mocha, Cypress. </b>
             </p>
 
             
