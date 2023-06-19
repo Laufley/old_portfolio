@@ -3,13 +3,30 @@ import './Personal.css';
 import styled from 'styled-components';
 import Header from '../Components/Header';
 import { Link } from 'react-router-dom';
-import goofy from './helpers/goofy.jpeg'
+import goofy from './helpers/goofy.jpeg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHiking } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faFaceLaughBeam } from '@fortawesome/free-regular-svg-icons';
+
+
+
+
 
 const personalImg = goofy
 
 const Text = styled.p`
   font-size: 16px;
   color: rgb(35, 29, 35);
+  transition: 1s;
+
+  &:hover {
+    
+    transition: 1s;
+    color: ;
+    font-size: 17.5px;
+    
+  }
 `;
 
 const PersonalContainer = styled.div`
@@ -23,6 +40,7 @@ padding-top: 2rem;
 const Pre = styled.pre`
 position: relative;
 padding-top: 13%;
+
 `
 
 const Personal = () => {
@@ -56,31 +74,35 @@ const Personal = () => {
                             print Lemonade</Text>
                         </Pre>
 
-                        <div id='personal-life-grid'>
-                            <section id='career-history'>
-                                <h4>2017 - From Barcelona to Edinburgh</h4>
-                                <Text>From working as a clinical psychologyst in Bellvitge's hospital (Spain), love drove me to the UK in 2017.
+                        <div>
+                            <section id='first'>
+                                <div>
+                                <h3><span className='year'>2017 - </span><span style={{color: '#4F0080'}} >To Edinburgh From Barcelona </span><span className='icon-life'>.... &#9992;</span></h3>
+                                <Text>From working as a <u>clinical psychologyst</u> in Bellvitge's hospital (Spain), I moved to the UK for love.
                                     <br></br>All new beginings are hard, and I didn't speak any English, but when life gives you lemons... haha!
                                 </Text>
+                                </div>
 
-                                <br></br><br></br>
-                                <h4> 2017 to 2022 - Accumulative UK career</h4>
+                                <br></br>
+                                <h3><span className='year'>2017 to 2022 - </span> <span style={{ color: '#4F0080' }}>Accumulative UK career </span><span className='icon-life'> ... < FontAwesomeIcon icon={faHiking}/></span></h3>
                                 <Text>
-                                    Never with a dull moment. I've always moved upwards when I got too comfortable in a role to make sure I would keep growing. <br></br><br></br>
-                                    When I arrived to Edinburgh my main priority was to learn English, and that's why I started as a <u>waitress</u>.
+                                    Never with a dull moment. I've always moved upwards when I got too comfortable in a role to make <br></br> sure I would keep growing. <br></br><br></br>
+                                    When I arrived to Edinburgh first I had to learn English. That's why I started as a<u>waitress</u>.
                                     <br></br>
-                                    When I felt confident enough, I braved it into <u>customer service.</u><br></br>
-                                    Within 3 months I got promoted to the <u>Social Media</u> team which allowed me to also improve my writing skills. I had a lot of fun, but soon enough I had reached a plateau. So I moved into something new... <br></br><br></br>
+                                    As soon as I got the basics, I braved it into <u>customer service</u> to improve it.<br></br>
+                                    Within 3 months I got promoted to the <u>Social Media</u> team where I improved my writing skills. I had <br></br>a lot of fun, but soon enough I had reached a plateau. So I moved into something new... <br></br><br></br>
                                     <u>IT recruitment!</u> Why not? I like tech and I enjoy interacting with people :)<br></br><br></br>
-                                    After 4 years of exposure to all kind of challenges in different companies, I became a <u>senior IT recruiter</u> at <i> Smart Hire IT Nordics</i>.
-                                    Since everyone in the startup had the same vision, we drove success fast while wholeheartedly enjoying what we did. And almost without noticing, I started taking more responsabilities than what was expected because I believed in the difference we were making.
+                                    I became a <u>senior IT recruiter</u> at <i> Smart Hire IT</i> after 4 years of exposure to all kind of challenges <br></br> in different companies.
+                                    Since everyone in the startup had the same vision, we drove success fast <br></br> while wholeheartedly enjoying what we did. And almost without noticing, I started taking more responsabilities than what was expected because I believed in the difference we were making.
                                     <br></br>
-                                    Here is a summary of my achievements as Senior IT Recruiter which when I first arrived to this country I could have never imagined ever doing:
-                                    <br></br><p id='summary-rec_skills'> Studied the IT market, delivered influencial market insights to my clients, became account manager of multiple accounts in EU, coached candidates towards their next career move, improved operations in the company and innovated with new approaches that are still being used. I owned and led projects, delivered trainings, delivered a social media audit to the CEO, joined forces with the CEO to rebranded the company, and helped to shape our flashy website (thanks to the help of a developer). I also represented our company on big tech events in Stockholm!</p>
-                                    After all of this, and as you can imagine, I have developed a solid bundle of client and customer based soft-skills which I am already leveraging as a software developer.<br></br>
-
-                                    <br></br><br></br><br></br>
-                                    <h4> 2022 - Big decision! Sofware Development</h4>
+                                    Here is a summary of my achievements as Senior IT Recruiter which when I first arrived to this <br></br>country I would have never imagined ever doing<span > &#128561;</span> ! :
+                                    <br></br><p id='summary-rec_skills'> Studied the IT market, delivered influencial market insights to my clients, became account manager of multiple accounts in EU, coached candidates towards their <br></br> next career move, improved operations in the company and innovated with new approaches that are still being used. I owned and led projects, delivered trainings, delivered a social media audit to the CEO, joined forces with the CEO to rebrand <br></br>the company, and helped to shape our flashy website (thanks to the help of a developer). I also represented our company on big tech events in Stockholm!</p>
+                                    <br></br><span style={{margin:'50px'}} >After all of this, and as you can imagine, I have developed a solid bundle of client and</span><br></br><span style={{margin:'60px'}} >customer based soft-skills which I am already leveraging as a software developer.</span><br></br>
+                                </Text>
+   
+                                    <br></br><br></br>
+                                    <h3><span className='year'>2022 - </span><span style={{color: '#4F0080'}} >Big decision! Sofware Development</span> <span className='icon-life'> ... <FontAwesomeIcon icon={faFaceLaughBeam}/></span></h3>
+                                <Text> 
                                     In the back of my mind, for almost those entire 4 years, I kept toying with the idea of becoming a programmer and unraveling all that "magic" my candidates amazed me with, dreaming about being the one telling to my customers "Yes, I can build it for you!" instead of "Yes, I will find someone to do it for you". <br></br>
                                     <br></br>
                                     <i>Smart Hire IT Nordics</i> has been my growing pot. And I couldn't be more grateful for that. They noticed I really craved something yet I didn't know what it was, and they supported me on my pursuit.
@@ -91,23 +113,25 @@ const Personal = () => {
                                     So here I am. After few years and a solid bundle of skills developed, I have finally found my right path.
                                     Who know where will it lead...
 
-
-                                    <br></br><br></br><br></br><br></br>
-                                    <h4> 2022 - 2023 - My Software development journey so far</h4>
+                                </Text>
+                                
+                                    <br></br><br></br><br></br>
+                                    <h3><span className='year'>2022 to 2023 - </span><span style={{color: '#4F0080'}} > My Software development journey so far</span><span className='icon-life'> ... <FontAwesomeIcon icon={faCode} /></span></h3>
+                                <Text>    
                                     <ul>
-                                        (studies)
+                                        <b>(studies)</b>
                                         <li>CodeClan studies in Fullstack software development - Certificate obtained</li>
                                         <li>SQA Software development SQCF level 8 - Certificate obtained </li>
                                         <li>Harvard edX CS50's introduction to computer science - ongoing, remote </li>
                                         <li>Skyscanner Forage course - ongoing, remote</li><br></br>
-                                        (side projects)
+                                        <b>(side projects)</b>
                                         <li>4 big projects completed in different languages (Python, JS, C#)</li> <br></br>
-                                        (paid projects)
+                                        <b>(paid projects)</b>
                                         <li>1st paid job as independed consultant - contract finishes on 1st July 2023 (loving the feeling of being a consultant) </li><br></br>
                                         <li><u>Current state:</u> Looking for a permanent position in the right company.</li>
                                     </ul>
 
-                                    <br></br><hr></hr>
+                                   
                                 </Text>
                             </section>
 
@@ -134,6 +158,9 @@ const Personal = () => {
                                         <li><b>Improving and fixing stuff:</b> I can't help it.</li>
                                 </ol>
                             </section>
+
+
+
 
                             <section id='volunteering'>
                                 <h2 className='psection-header'>Causes I care about</h2>

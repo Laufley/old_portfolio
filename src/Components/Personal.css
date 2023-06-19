@@ -1,3 +1,31 @@
+#personal-aside {
+    float: right;
+    position: sticky;
+    top: 0;
+    margin-right: 10%;
+    margin-top: -20%;
+}
+
+#personal-picture {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.79);
+    width: 300px;
+    height: 400;
+    background-color: white;
+    vertical-align: middle;
+    transform: rotate(8deg);
+    margin-top: 5rem;
+}
+
+#personal-details {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+
 #personal-main {
     display: grid;
     grid-template-rows: repeat(2, auto);
@@ -30,34 +58,6 @@
 }
 
 
-#personal-aside {
-    float: right;
-    position: sticky;
-    top: 0;
-    margin-right: 10%;
-    margin-top: -20%;
-}
-
-#personal-picture {
-    width: 80%;
-    padding: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.79);
-    width: 300px;
-    height: 400;
-    background-color: white;
-    vertical-align: middle;
-    transform: rotate(8deg);
-    margin-top: 5rem;
-}
-
-#personal-details {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20%;
-}
-
 .personal-linkStyle{
     margin: 0 10px;
     text-decoration: none;
@@ -79,8 +79,50 @@
 .sustainability-links:hover{
     color: rgb(240, 247, 186);
     
+
 }
 
+
+/*  Life content section */
+#first {
+    background-color: rgba(255, 255, 255, 0.181);
+    padding: 20px;
+    border-radius: 70px;
+  }
+
+  .year {
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+  .icon-life{
+    /* color: #4F0080; */
+    color: rgb(251, 153, 118);
+    /* color: rgb(199, 53, 0); */
+    font-size: 25px;
+  }
+
+  .icon-life:hover{
+  color: rgb(192, 226, 43);
+  transition: 0.8s;
+  }
+
+  #summary-rec_skills{
+    margin-left: 2rem;
+    margin-right: 4rem;
+    font-style:italic;
+    color: aliceblue;
+    background-color: #4f008054;
+    padding: 1rem;
+    border-radius: 20px;
+    border-color: rgba(240, 248, 255, 0.722);
+    border-style: dotted;
+    border-width: 10px;
+  }
+  #summary-rec_skills:hover{
+    transition: 0.3s;
+    border-color:  rgb(192, 226, 43);
+  }
 
 /* I love ducks easter egg */
 .duck-name{
@@ -130,7 +172,8 @@
     color: rgb(26, 255, 0);
 }
 
-
+/* /////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////// */
 /* Media queries ipad */
 
 @media only screen and (max-width: 820px) {
