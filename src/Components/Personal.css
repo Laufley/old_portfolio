@@ -77,7 +77,7 @@
 }
 
 .sustainability-links:hover{
-    color: rgb(240, 247, 186);
+    color: rgb(192, 226, 43)
     
 
 }
@@ -122,6 +122,23 @@
   #summary-rec_skills:hover{
     transition: 0.3s;
     border-color:  rgb(192, 226, 43);
+  }
+
+  #hobbies{
+    margin-top: 4rem;
+  }
+
+  #hobbies-list {
+    list-style: none;
+  }
+
+  #chevron-icon{
+    color: #4F0080;
+    margin-right: 4px;
+  }
+
+  #volunteering{
+    margin-top: 4rem;
   }
 
 /* I love ducks easter egg */

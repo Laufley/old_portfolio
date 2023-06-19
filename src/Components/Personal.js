@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHiking } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { faFaceLaughBeam } from '@fortawesome/free-regular-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -141,22 +142,23 @@ const Personal = () => {
                                 <Text>
                                     Life is too short and there is so much to discover.<br></br>
                                     I want to learn as much as I can while I'm alive. That's why I have so many hobbies!
+                                
+                                <ul id='hobbies-list'>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Code challenges</b></li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Miniature painting</b></li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Tabletop RPGs</b>: GURPS, Dungeons and Dragons</li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Boardgames, Cardgames and videogames:</b> e.g Magic the Gathering</li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Reading</b></li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Writing collaboratively with people around the world</b></li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Piano:</b> beginner</li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> video editing:</b> beginner</li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Watching documentaries</b></li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Hiking</b></li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Travelling:</b> Discovering about the world and other cultures is soul-enriching</li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Foodie</b></li>
+                                        <li><b><span id='chevron-icon'><FontAwesomeIcon icon={faChevronRight}/></span> Improving and fixing stuff:</b> I can't help it.</li>
+                                </ul>
                                 </Text>
-                                <ol>
-                                        <li><b>Code challenges</b></li>
-                                        <li><b>Miniature painting</b></li>
-                                        <li><b>Tabletop RPGs</b>: Dungeons & Dragons, GURPS</li>
-                                        <li><b>Boardgames and videogames</b></li>
-                                        <li><b>Reading</b></li>
-                                        <li><b>Writing collaboratively with people around the world</b></li>
-                                        <li><b>Piano:</b> beginner</li>
-                                        <li><b>video editing:</b> beginner</li>
-                                        <li><b>Watching documentaries</b></li>
-                                        <li><b>Hiking</b></li>
-                                        <li><b>Travelling:</b> Discovering about the world and other cultures is soul-enriching</li>
-                                        <li><b>Foodie</b></li>
-                                        <li><b>Improving and fixing stuff:</b> I can't help it.</li>
-                                </ol>
                             </section>
 
 
