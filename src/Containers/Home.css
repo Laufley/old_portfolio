@@ -15,6 +15,7 @@ color: #4F0080;
 
 .section-header{
     color: rgba(240, 248, 255, 0.892);
+    margin-top: 2rem;
 }
 
 
@@ -78,8 +79,24 @@ color: #4F0080;
     margin-left: 2rem;
 }
   
-
+#languages-box{
+    background-color: rgba(255, 255, 255, 0.181);
+    padding: 20px;
+    border-radius: 70px;
+}
   
+#soft-skills-box{
+    background-color: rgba(255, 255, 255, 0.181);
+    padding: 20px;
+    border-radius: 70px; 
+}
+
+
+#mindset-box{
+    background-color: rgba(255, 255, 255, 0.181);
+    padding: 20px;
+    border-radius: 70px; 
+}
 
 /* COLOURS ON HOVER */
 
@@ -208,6 +225,11 @@ color: #4F0080;
         flex-direction: column;
         margin-left: 4%;
     }
+
+    .section-header{
+        color: rgba(240, 248, 255, 0.892);
+        margin-top: 4rem;
+    }
 }
 
 /* media query for mobile */
@@ -218,6 +240,7 @@ color: #4F0080;
         margin-left: -8px;
         text-align: center;
         width: 100%;
+        margin-bottom: -2rem;
     }
 
     #Aside {
@@ -261,6 +284,12 @@ color: #4F0080;
         padding: 5%;
         background-color: rgba(255, 0, 0, 0);
         margin-bottom: 5rem;
+    }
+
+    .section-header{
+        color: rgba(240, 248, 255, 0.892);
+        margin-top: 2rem;
+        align-self: center;
     }
 
     #Content {

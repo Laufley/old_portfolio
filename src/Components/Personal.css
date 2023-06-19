@@ -67,11 +67,12 @@
 
 .personal-linkStyle:hover {
     color: whitesmoke;
-    color: rgb(26, 34, 71);
+    color: rgb(47, 47, 47);
+    
 }
 
 .sustainability-links {
-    color: rgb(186, 219, 247);
+    color: rgb(251, 153, 118);
     text-decoration: none;
     font-weight: bold;
 }
@@ -79,7 +80,6 @@
 .sustainability-links:hover{
     color: rgb(192, 226, 43)
     
-
 }
 
 
