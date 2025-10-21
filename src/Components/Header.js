@@ -160,7 +160,7 @@ const Header = ({ route, setRoute }) => {
         <TopContent>
         <Title>Indira Borras Gonzalez</Title>
         <ButtonsWrapper>
-        <LinkStyled to="/portfolio"><Button1>Professional</Button1></LinkStyled>
+        <LinkStyled to="/a"><Button1>Professional</Button1></LinkStyled>
         <LinkStyled to="/Personal"><Button2>Personal</Button2></LinkStyled>
         </ButtonsWrapper>
         </TopContent>

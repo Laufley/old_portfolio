@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://laufley.github.io/portfolio",
+  "homepage": "https://laufley.github.io/portafolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
